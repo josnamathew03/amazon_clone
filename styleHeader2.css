@@ -1,0 +1,84 @@
+.second {
+    display: flex;
+    flex-wrap: nowrap;
+    background: #232f3e;
+    padding-left: 11px;
+    max-height: 39px;
+    width: 100%;
+    line-height: 1em;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+.second .all {
+    padding: 8px 9px;
+    width: auto;
+    height: auto;
+    font-size: 25px;
+    display: flex;
+    line-height: 12px;
+    font-weight: 500;
+}
+
+.second .all .all-icon {
+    width: 17px;
+    height: 14px;
+    align-self: center;
+    background-position: -172px -255px;
+    display: flex;
+    background-image: url("https://m.media-amazon.com/images/G/31/gno/sprites/nav-sprite-global-2x-reorg-privacy._CB546381437_.png");
+    background-size: 350px;
+}
+
+.all span {
+    padding-left: 5px;
+    font-size: 14px;
+    align-self: center;
+}
+
+.second .sub {
+    display: flex;
+    justify-items: center;
+    flex: 1 1 auto;
+    width: auto;
+    align-items: flex-end;
+    overflow: hidden;
+    flex-wrap: wrap;
+    max-height: 39px;
+    white-space: nowrap;
+}
+
+.sub .dropdown-icon {
+    margin: 0;
+    padding: 0;
+    height: 5px;
+    margin-left: -2.8px;
+    /* transform: translateY(-50%); */
+    font-size: 8px;
+    color: #999;
+    /* width: 5px;
+  height: 5px; */
+    pointer-events: none;
+}
+
+.sub div {
+    padding: 0 5px;
+    height: 100%;
+}
+
+.sub div select,
+.sub div span {
+    margin: 5px 0 6px 0;
+    padding: 8px 5px;
+    justify-self: center;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 12px;
+    align-self: center;
+}
+
+.sub div select {
+    background: none;
+    border: none;
+    color: white;
+}
