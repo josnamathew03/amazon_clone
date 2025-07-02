@@ -97,8 +97,8 @@
 .count h2 {
     margin: 8px 0;
     font-size: 14px;
-    font-weight: 400;
     line-height: 20px;
+    font-family: 'regular';
 }
 
 .sort .sort1 {
