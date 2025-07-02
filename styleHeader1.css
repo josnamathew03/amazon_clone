@@ -28,6 +28,10 @@
 
 /* ---------------------------------------------------------------- */
 /* reset */
+body {
+    font-size: 14px;
+}
+
 body,
 p,
 ul,
@@ -42,10 +46,12 @@ a {
 p,
 a,
 li,
-span,select {
+span,
+select,
+ul {
 
     /* font-family: "regular"; */
-    font-family:"regular", Arial, sans-serif;
+    font-family: "regular", Arial, sans-serif;
 
 }
 
@@ -56,7 +62,9 @@ h4,
 h5,
 h6 {
 
-       font-family:"regular", Arial, sans-serif;
+    font-family: "regular", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 
 
 }
@@ -223,7 +231,7 @@ header {
     border: none;
     width: auto;
     margin-right: 4.5px;
-    padding: 0 2px ;
+    padding: 0 2px;
 
 
     height: 100%;
@@ -283,6 +291,7 @@ header {
 
     /* justify-content: space-between; */
 }
+
 /* .last div{
     padding: 0 9px;
     margin-left: 2px;
@@ -292,7 +301,7 @@ header {
     background: none;
     color: white;
     padding: 12px 8px 10px 7px;
-    margin: 1px 2px ;
+    margin: 1px 2px;
     display: flex;
     justify-content: center;
     border: none;
@@ -441,6 +450,3 @@ header {
     font-weight: 700;
     align-self: center;
 }
-
-
-
