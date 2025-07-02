@@ -17,12 +17,19 @@
 
 @font-face {
     font-family: 'regular';
-    src: url(assets/font/AmazonUIFont-amazonember_rg-cc7ebaa05a2cd3b02c0929ac0475a44ab30b7efa._V2_\ \(1\).woff2)
+    /* src: url(assets/font/AmazonUIFont-amazonember_rg-cc7ebaa05a2cd3b02c0929ac0475a44ab30b7efa._V2_\ \(1\).woff2) */
+    src: url(assets/font/new.woff2);
+    /* src: url(assets/font/contents.woff2) */
+
+    
+
 }
 
 @font-face {
     font-family: 'bold';
-    src: url(assets/font/AmazonUIFont-amazonember_rg-cc7ebaa05a2cd3b02c0929ac0475a44ab30b7efa._V2_\ \(1\).woff2);
+    src: url(assets/font/AmazonEmber_Bd.ttf);
+    /* src: url(assets/font/bold.woff2); */
+
 }
 
 
@@ -51,7 +58,8 @@ select,
 ul {
 
     /* font-family: "regular"; */
-    font-family: "regular", Arial, sans-serif;
+    font-family: "regular";
+
 
 }
 
@@ -62,7 +70,9 @@ h4,
 h5,
 h6 {
 
-    font-family: "regular", Arial, sans-serif;
+    font-family: "bold";
+    font-weight: normal !important;
+
     margin: 0;
     padding: 0;
 
@@ -156,7 +166,7 @@ header {
     align-self: center;
 }
 
-.location .details {
+.location .details1 {
     display: flex;
     flex-flow: column nowrap;
     margin-left: 3px;
@@ -166,25 +176,25 @@ header {
 
 }
 
-.location .details p {
+.location .details1 p {
     margin: 0;
     font-size: 12px;
     line-height: 14px;
     font-weight: 400;
     white-space: nowrap;
     height: 14px;
+    font-size: 12px;
     color: #ccc;
     display: flex;
     flex-wrap: nowrap;
 }
 
-.location .details span {
+.location .details1 span {
     margin: 0;
     padding-bottom: 1px;
     font-size: 14px;
     line-height: 15px;
-    font-weight: bold;
-    letter-spacing: .25px;
+    font-family: 'bold';
     /* font-family: "bold"; */
 }
 
@@ -197,7 +207,7 @@ header {
 }
 
 .middle .filter {
-    margin: 0 0px 0px 6px;
+    margin: 0 10px 0px 10px;
     padding: 10px 4px 10px 3px;
     height: 40px;
     display: flex;
@@ -216,25 +226,54 @@ header {
     display: flex;
     width: auto;
     height: 38px !important;
+    position: relative;
+    display: flex;       
+    float: none;
+    inset: 0;
 
 
 }
 
-.filter .dropdown select {
+.filter .dropdown .drop-name {
     color: #555;
     font-size: 12px;
-    line-height: 35px;
+    line-height: 33px;
+    padding-top: 2px;
+
     /* margin-right: 21px;
     margin-left: 5px; */
     min-width: 19px;
-    background-color: #e6e6e6;
-    border: none;
+    /* background-color: #e6e6e6; */
+    /* border: none; */
     width: auto;
     margin-right: 4.5px;
-    padding: 0 2px;
+    padding: 3px 2px 0px;
+    display: block;
+    margin-right: 19px;
+    margin-left: 3px;
 
 
     height: 100%;
+}
+ .drop-icon{
+    background-image: url(https://m.media-amazon.com/images/G/31/gno/sprites/nav-sprite-global-1x-reorg-privacy._CB546381437_.png);
+    background-position: 0 1000px;
+    position: absolute;
+    box-sizing: border-box;
+    top: 17px;
+    right: 8px;
+    border-style: solid;
+    white-space: nowrap;
+    border-width: 4px;
+    border-color: transparent;
+    border-top: 4px solid #666;
+    border-bottom-width: 0;
+    width: 0px;
+    height: 0px;
+    background-repeat: repeat-x;
+ 
+    display: inline-block;
+
 }
 
 .input {
@@ -257,6 +296,7 @@ header {
     border: none;
     font-size: 15px;
     line-height: 15px;
+    font-family: 'regular';
 
 }
 

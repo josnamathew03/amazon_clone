@@ -30,7 +30,7 @@
                 <div class="locationn">
                     <div class="location">
                         <span class="loc"></span>
-                        <div class="details">
+                        <div class="details1">
                             <p>Delivering to Kozhikode 673018</p>
                             <span>Update location</span>
                         </div>
@@ -42,9 +42,11 @@
             <div class="middle">
                 <div class="filter">
                     <div class="dropdown">
-                        <select name="type" id="">
+                        <span class="drop-name">Mobiles & Accessories</span>
+                        <span class="drop-icon"></span>
+                        <!-- <select name="type" id="">
                             <option value="Mobiles & Accessories">Mobiles & Accessories</option>
-                        </select>
+                        </select> -->
                     </div>
                     <div class="input">
                         <input type="text" placeholder="Search Amazon.in">
@@ -88,9 +90,11 @@
                 <span>All</span>
             </div>
             <div class="sub">
-                <div>
-                    <span class="drop">Fresh</span>
-                    <i class="fa fa-caret-down"></i>
+                <div class="drop-div">
+                    <span class="drop">Fresh
+                    </span>
+                    <button></button>
+
 
                     <!-- <span class="dropdown-icon">▼</span> -->
 
@@ -107,15 +111,12 @@
                 <div>
                     <span>Bestsellers</span>
                 </div>
-                <div>
-                    <span class="drop">Prime</span>
-                    <i class="fa fa-caret-down"></i>
+                <div class="drop-div">
+                    <span class="drop">Prime
+                    </span>
+                    <button></button>
 
-                    <!-- <span class="dropdown-icon">▼</span> -->
 
-                    <!-- <select name="p" id="">
-                        <option value="prime">Prime</option>
-                    </select> -->
                 </div>
                 <div>
                     <span>Mobiles</span>
@@ -142,7 +143,13 @@
                     <span>Electronics</span>
                 </div>
                 <div>
-                    <span>Homes & Kitchen</span>
+                    <span>Home & Kitchen</span>
+                </div>
+                <div>
+                    <span>Computers</span>
+                </div>
+                <div>
+                    <span>Car & Motorbike</span>
                 </div>
                 <!--
                   <div>
@@ -193,7 +200,7 @@
     <main>
         <div class="bar">
             <div class="side-bar">
-                <div class="details">
+                <div class="details1">
                     <div class="cat">
 
                         <span class="catH">Category</span>
@@ -282,20 +289,28 @@
                         <div class="refine">
                             <p>Price</p>
                             <p class="writing">
-                                <span>₹490</span>
+                                ₹490 – ₹145,200+
+                                <!-- <span>₹490</span>
                                 <span>–</span>
-                                <span>₹145,200+</span>
+                                <span>₹145,200+</span> -->
                             </p>
                             <div class="price-tag">
-                                <input type="range" class="range-s" min="0" max="187" step="1" value="0">
-                                <input type="range" class="range-l" min="0" max="187" step="1" value="187">
-                                <button>Go</button>
+                                <div class="range">
+                                    <input type="range" class="range-s" min="0" max="187" step="1" value="0">
+                                    <input type="range" class="range-l" min="0" max="187" step="1" value="187">
+                                </div>
+                                <div class="button-span">
+                                    <button class="goo">Go</button>
+
+                                </div>
+
+
                             </div>
                         </div>
 
                         <ul>
                             <li class="deals">Deals & Discounts</li>
-                            <li>All Discounts</li>
+                            <li class="dis">All Discounts</li>
                             <li>Today's Deals</li>
                         </ul>
                     </div>
@@ -317,8 +332,8 @@
                             <li>
                                 <label for="" class="include-l">
                                     <input type="checkbox" class="include">
-                                    Include Out of stock
-                                </label>
+                                    Include Out of Stock
+                                </label>                  
                             </li>
                         </ul>
 
@@ -333,9 +348,11 @@
                                 </label>
                             </li>
                             <li>
-                                <label for="" class="click-l"></label>
-                                <input type="checkbox" class="click">
-                                CLicktech Retail Private Ltd
+                                <label for="" class="click-l">
+                                     <input type="checkbox" class="click">
+                                Clicktech Retail Private Ltd
+                                </label>
+                               
                             </li>
                             <li class="see">
                                 <i class="fa-solid fa-chevron-down"></i>
@@ -368,7 +385,7 @@
                     </div>
 
                 </div>
-                <div class="ring-light">
+                <!-- <div class="ring-light">
                     <div class="grid">
                         <div class="image">
                             <img src="assets/ringlight-sidebar.webp" alt="">
@@ -379,9 +396,9 @@
                                 360° Rotation | Suitable for Mobile Phones & Camera, YouTube, Photoshoot, Videography
                                 and
                                 More</p>
-                        </div>
+                        </div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
         <div class="body">
@@ -390,17 +407,22 @@
                     <h2>Results</h2>
                     <p>Check each product page for other buying options. </p>
                 </div>
+
+
                 <div class="product one">
                     <div class="each">
                         <div class="each-one">
                             <div class="image">
-                                <div class="image1">
-                                    <img class="s-image" src="./Amazon.in_files/81T3olLXpUL._AC_UL320_.jpg"
-                                        srcset="https://m.media-amazon.com/images/I/81T3olLXpUL._AC_UL320_.jpg 1x, https://m.media-amazon.com/images/I/81T3olLXpUL._AC_UL480_FMwebp_QL65_.jpg 1.5x, https://m.media-amazon.com/images/I/81T3olLXpUL._AC_UL640_FMwebp_QL65_.jpg 2x, https://m.media-amazon.com/images/I/81T3olLXpUL._AC_UL800_FMwebp_QL65_.jpg 2.5x, https://m.media-amazon.com/images/I/81T3olLXpUL._AC_UL960_FMwebp_QL65_.jpg 3x"
-                                        alt="Samsung Galaxy M05 (Mint Green, 4GB RAM, 64 GB Storage) | 50MP Dual Camera | Bigger 6.7&quot; HD+ Display | 5000mAh Battery | 2..."
-                                        aria-hidden="true" data-image-index="1" data-image-load=""
-                                        data-image-latency="s-product-image" data-image-source-density="1">
-                                </div>
+                                <span class="span-image">
+                                    <div class="image1">
+                                        <img class="s-image" src="./Amazon.in_files/81T3olLXpUL._AC_UL320_.jpg"
+                                            srcset="https://m.media-amazon.com/images/I/81T3olLXpUL._AC_UL320_.jpg 1x, https://m.media-amazon.com/images/I/81T3olLXpUL._AC_UL480_FMwebp_QL65_.jpg 1.5x, https://m.media-amazon.com/images/I/81T3olLXpUL._AC_UL640_FMwebp_QL65_.jpg 2x, https://m.media-amazon.com/images/I/81T3olLXpUL._AC_UL800_FMwebp_QL65_.jpg 2.5x, https://m.media-amazon.com/images/I/81T3olLXpUL._AC_UL960_FMwebp_QL65_.jpg 3x"
+                                            alt="Samsung Galaxy M05 (Mint Green, 4GB RAM, 64 GB Storage) | 50MP Dual Camera | Bigger 6.7&quot; HD+ Display | 5000mAh Battery | 2..."
+                                            aria-hidden="true" data-image-index="1" data-image-load=""
+                                            data-image-latency="s-product-image" data-image-source-density="1">
+                                    </div>
+                                </span>
+
 
                             </div>
                             <div class="details">
@@ -460,13 +482,16 @@
                     <div class="each">
                         <div class="each-one">
                             <div class="image">
-                                <div class="image1">
-                                    <img class="s-image" src="./Amazon.in_files/512UVkoMMEL._AC_UL320_.jpg"
-                                        srcset="https://m.media-amazon.com/images/I/512UVkoMMEL._AC_UL320_.jpg 1x, https://m.media-amazon.com/images/I/512UVkoMMEL._AC_UL480_FMwebp_QL65_.jpg 1.5x, https://m.media-amazon.com/images/I/512UVkoMMEL._AC_UL640_FMwebp_QL65_.jpg 2x, https://m.media-amazon.com/images/I/512UVkoMMEL._AC_UL800_FMwebp_QL65_.jpg 2.5x, https://m.media-amazon.com/images/I/512UVkoMMEL._AC_UL960_FMwebp_QL65_.jpg 3x"
-                                        alt="Samsung Original 25W Type-C Travel Adaptor Without Cable, White"
-                                        aria-hidden="true" data-image-index="2" data-image-load=""
-                                        data-image-latency="s-product-image" data-image-source-density="1">
-                                </div>
+                                <span class="span-image">
+                                    <div class="image1">
+                                        <img class="s-image" src="./Amazon.in_files/512UVkoMMEL._AC_UL320_.jpg"
+                                            srcset="https://m.media-amazon.com/images/I/512UVkoMMEL._AC_UL320_.jpg 1x, https://m.media-amazon.com/images/I/512UVkoMMEL._AC_UL480_FMwebp_QL65_.jpg 1.5x, https://m.media-amazon.com/images/I/512UVkoMMEL._AC_UL640_FMwebp_QL65_.jpg 2x, https://m.media-amazon.com/images/I/512UVkoMMEL._AC_UL800_FMwebp_QL65_.jpg 2.5x, https://m.media-amazon.com/images/I/512UVkoMMEL._AC_UL960_FMwebp_QL65_.jpg 3x"
+                                            alt="Samsung Original 25W Type-C Travel Adaptor Without Cable, White"
+                                            aria-hidden="true" data-image-index="2" data-image-load=""
+                                            data-image-latency="s-product-image" data-image-source-density="1">
+                                    </div>
+                                </span>
+
 
                             </div>
                             <div class="details">
@@ -529,13 +554,16 @@
                     <div class="each">
                         <div class="each-one">
                             <div class="image">
-                                <div class="image1">
-                                    <img class="s-image" src="./Amazon.in_files/81nt-RGKpyL._AC_UL320_.jpg"
-                                        srcset="https://m.media-amazon.com/images/I/81nt-RGKpyL._AC_UL320_.jpg 1x, https://m.media-amazon.com/images/I/81nt-RGKpyL._AC_UL480_FMwebp_QL65_.jpg 1.5x, https://m.media-amazon.com/images/I/81nt-RGKpyL._AC_UL640_FMwebp_QL65_.jpg 2x, https://m.media-amazon.com/images/I/81nt-RGKpyL._AC_UL800_FMwebp_QL65_.jpg 2.5x, https://m.media-amazon.com/images/I/81nt-RGKpyL._AC_UL960_FMwebp_QL65_.jpg 3x"
-                                        alt="Samsung Galaxy M35 5G (Daybreak Blue,6GB RAM,128GB Storage)| Corning Gorilla Glass Victus+| AnTuTu Score 595K+ | Vapour Co..."
-                                        aria-hidden="true" data-image-index="3" data-image-load=""
-                                        data-image-latency="s-product-image" data-image-source-density="1">
-                                </div>
+                                <span class="span-image">
+                                    <div class="image1">
+                                        <img class="s-image" src="./Amazon.in_files/81nt-RGKpyL._AC_UL320_.jpg"
+                                            srcset="https://m.media-amazon.com/images/I/81nt-RGKpyL._AC_UL320_.jpg 1x, https://m.media-amazon.com/images/I/81nt-RGKpyL._AC_UL480_FMwebp_QL65_.jpg 1.5x, https://m.media-amazon.com/images/I/81nt-RGKpyL._AC_UL640_FMwebp_QL65_.jpg 2x, https://m.media-amazon.com/images/I/81nt-RGKpyL._AC_UL800_FMwebp_QL65_.jpg 2.5x, https://m.media-amazon.com/images/I/81nt-RGKpyL._AC_UL960_FMwebp_QL65_.jpg 3x"
+                                            alt="Samsung Galaxy M35 5G (Daybreak Blue,6GB RAM,128GB Storage)| Corning Gorilla Glass Victus+| AnTuTu Score 595K+ | Vapour Co..."
+                                            aria-hidden="true" data-image-index="3" data-image-load=""
+                                            data-image-latency="s-product-image" data-image-source-density="1">
+                                    </div>
+                                </span>
+
 
                             </div>
                             <div class="details">
@@ -601,13 +629,16 @@
                     <div class="each">
                         <div class="each-one">
                             <div class="image">
-                                <div class="image1">
-                                    <img class="s-image" src="./Amazon.in_files/71Gu1ib5-RL._AC_UL320_.jpg"
-                                        srcset="https://m.media-amazon.com/images/I/71Gu1ib5-RL._AC_UL320_.jpg 1x, https://m.media-amazon.com/images/I/71Gu1ib5-RL._AC_UL480_FMwebp_QL65_.jpg 1.5x, https://m.media-amazon.com/images/I/71Gu1ib5-RL._AC_UL640_FMwebp_QL65_.jpg 2x, https://m.media-amazon.com/images/I/71Gu1ib5-RL._AC_UL800_FMwebp_QL65_.jpg 2.5x, https://m.media-amazon.com/images/I/71Gu1ib5-RL._AC_UL960_FMwebp_QL65_.jpg 3x"
-                                        alt="Samsung Original 25W Type-C Travel Adaptor Without Cable, Black"
-                                        aria-hidden="true" data-image-index="4" data-image-load=""
-                                        data-image-latency="s-product-image" data-image-source-density="1">
-                                </div>
+                                <span class="span-image">
+                                    <div class="image1">
+                                        <img class="s-image" src="./Amazon.in_files/71Gu1ib5-RL._AC_UL320_.jpg"
+                                            srcset="https://m.media-amazon.com/images/I/71Gu1ib5-RL._AC_UL320_.jpg 1x, https://m.media-amazon.com/images/I/71Gu1ib5-RL._AC_UL480_FMwebp_QL65_.jpg 1.5x, https://m.media-amazon.com/images/I/71Gu1ib5-RL._AC_UL640_FMwebp_QL65_.jpg 2x, https://m.media-amazon.com/images/I/71Gu1ib5-RL._AC_UL800_FMwebp_QL65_.jpg 2.5x, https://m.media-amazon.com/images/I/71Gu1ib5-RL._AC_UL960_FMwebp_QL65_.jpg 3x"
+                                            alt="Samsung Original 25W Type-C Travel Adaptor Without Cable, Black"
+                                            aria-hidden="true" data-image-index="4" data-image-load=""
+                                            data-image-latency="s-product-image" data-image-source-density="1">
+                                    </div>
+                                </span>
+
 
                             </div>
                             <div class="details">
@@ -619,6 +650,7 @@
                                 </div>
                                 <div class="rating">
                                     <div class="stars">
+                                                        
                                         <span class="star-4"></span>
                                         <i class="down-arrow"></i>
                                         <p>39,097</p>
@@ -657,13 +689,13 @@
                                     <p>More Buying Choices</p>
                                     <div style="display: flex;">
                                         <span>₹979</span>
-                                        <span style="color: #2162a1;"> &nbsp; (7 new offers)</span>
+                                        <span style="color: #2162a1;"> &nbsp; (11 new offers)</span>
                                     </div>
                                 </div>
 
                             </div>
 
-                        </div>
+                        </div>      
                     </div>
                 </div>
 
@@ -672,13 +704,16 @@
                     <div class="each">
                         <div class="each-one">
                             <div class="image">
-                                <div class="image1">
-                                    <img class="s-image" src="./Amazon.in_files/718tAI-i2uL._AC_UL320_.jpg"
-                                        srcset="https://m.media-amazon.com/images/I/718tAI-i2uL._AC_UL320_.jpg 1x, https://m.media-amazon.com/images/I/718tAI-i2uL._AC_UL480_FMwebp_QL65_.jpg 1.5x, https://m.media-amazon.com/images/I/718tAI-i2uL._AC_UL640_FMwebp_QL65_.jpg 2x, https://m.media-amazon.com/images/I/718tAI-i2uL._AC_UL800_FMwebp_QL65_.jpg 2.5x, https://m.media-amazon.com/images/I/718tAI-i2uL._AC_UL960_FMwebp_QL65_.jpg 3x"
-                                        alt="Samsung Galaxy M06 5G (Sage Green, 6GB RAM, 128 GB Storage) | MediaTek Dimensity 6300 | AnTuTu Score 422K+ | 12 5G Bands| ..."
-                                        aria-hidden="true" data-image-index="5" data-image-load=""
-                                        data-image-latency="s-product-image" data-image-source-density="1">
-                                </div>
+                                <span class="span-image">
+                                    <div class="image1">
+                                        <img class="s-image" src="./Amazon.in_files/718tAI-i2uL._AC_UL320_.jpg"
+                                            srcset="https://m.media-amazon.com/images/I/718tAI-i2uL._AC_UL320_.jpg 1x, https://m.media-amazon.com/images/I/718tAI-i2uL._AC_UL480_FMwebp_QL65_.jpg 1.5x, https://m.media-amazon.com/images/I/718tAI-i2uL._AC_UL640_FMwebp_QL65_.jpg 2x, https://m.media-amazon.com/images/I/718tAI-i2uL._AC_UL800_FMwebp_QL65_.jpg 2.5x, https://m.media-amazon.com/images/I/718tAI-i2uL._AC_UL960_FMwebp_QL65_.jpg 3x"
+                                            alt="Samsung Galaxy M06 5G (Sage Green, 6GB RAM, 128 GB Storage) | MediaTek Dimensity 6300 | AnTuTu Score 422K+ | 12 5G Bands| ..."
+                                            aria-hidden="true" data-image-index="5" data-image-load=""
+                                            data-image-latency="s-product-image" data-image-source-density="1">
+                                    </div>
+                                </span>
+
 
                             </div>
                             <div class="details">
@@ -737,13 +772,16 @@
                     <div class="each">
                         <div class="each-one">
                             <div class="image">
-                                <div class="image1">
-                                    <img class="s-image" src="./Amazon.in_files/61fkOHNmzpL._AC_UL320_.jpg"
-                                        srcset="https://m.media-amazon.com/images/I/61fkOHNmzpL._AC_UL320_.jpg 1x, https://m.media-amazon.com/images/I/61fkOHNmzpL._AC_UL480_FMwebp_QL65_.jpg 1.5x, https://m.media-amazon.com/images/I/61fkOHNmzpL._AC_UL640_FMwebp_QL65_.jpg 2x, https://m.media-amazon.com/images/I/61fkOHNmzpL._AC_UL800_FMwebp_QL65_.jpg 2.5x, https://m.media-amazon.com/images/I/61fkOHNmzpL._AC_UL960_FMwebp_QL65_.jpg 3x"
-                                        alt="Samsung EVO Plus 128GB Micro SDXC w/SD Adaptor, Up-to 160MB/s, Expanded Storage for Gaming Devices, Android Tablets and Sm..."
-                                        aria-hidden="true" data-image-index="6" data-image-load=""
-                                        data-image-latency="s-product-image" data-image-source-density="1">
-                                </div>
+                                <span class="span-image">
+                                    <div class="image1">
+                                        <img class="s-image" src="./Amazon.in_files/61fkOHNmzpL._AC_UL320_.jpg"
+                                            srcset="https://m.media-amazon.com/images/I/61fkOHNmzpL._AC_UL320_.jpg 1x, https://m.media-amazon.com/images/I/61fkOHNmzpL._AC_UL480_FMwebp_QL65_.jpg 1.5x, https://m.media-amazon.com/images/I/61fkOHNmzpL._AC_UL640_FMwebp_QL65_.jpg 2x, https://m.media-amazon.com/images/I/61fkOHNmzpL._AC_UL800_FMwebp_QL65_.jpg 2.5x, https://m.media-amazon.com/images/I/61fkOHNmzpL._AC_UL960_FMwebp_QL65_.jpg 3x"
+                                            alt="Samsung EVO Plus 128GB Micro SDXC w/SD Adaptor, Up-to 160MB/s, Expanded Storage for Gaming Devices, Android Tablets and Sm..."
+                                            aria-hidden="true" data-image-index="6" data-image-load=""
+                                            data-image-latency="s-product-image" data-image-source-density="1">
+                                    </div>
+                                </span>
+
 
                             </div>
                             <div class="details">
@@ -801,13 +839,16 @@
                     <div class="each">
                         <div class="each-one">
                             <div class="image">
-                                <div class="image1">
-                                    <img class="s-image" src="./Amazon.in_files/51ga1DANA8L._AC_UL320_.jpg"
-                                        srcset="https://m.media-amazon.com/images/I/51ga1DANA8L._AC_UL320_.jpg 1x, https://m.media-amazon.com/images/I/51ga1DANA8L._AC_UL480_FMwebp_QL65_.jpg 1.5x, https://m.media-amazon.com/images/I/51ga1DANA8L._AC_UL640_FMwebp_QL65_.jpg 2x, https://m.media-amazon.com/images/I/51ga1DANA8L._AC_UL800_FMwebp_QL65_.jpg 2.5x, https://m.media-amazon.com/images/I/51ga1DANA8L._AC_UL960_FMwebp_QL65_.jpg 3x"
-                                        alt="Samsung Original Type C to C Cable - 3.28 Feet (1 Meter), White"
-                                        aria-hidden="true" data-image-index="7" data-image-load=""
-                                        data-image-latency="s-product-image" data-image-source-density="1">
-                                </div>
+                                <span class="span-image">
+                                    <div class="image1">
+                                        <img class="s-image" src="./Amazon.in_files/51ga1DANA8L._AC_UL320_.jpg"
+                                            srcset="https://m.media-amazon.com/images/I/51ga1DANA8L._AC_UL320_.jpg 1x, https://m.media-amazon.com/images/I/51ga1DANA8L._AC_UL480_FMwebp_QL65_.jpg 1.5x, https://m.media-amazon.com/images/I/51ga1DANA8L._AC_UL640_FMwebp_QL65_.jpg 2x, https://m.media-amazon.com/images/I/51ga1DANA8L._AC_UL800_FMwebp_QL65_.jpg 2.5x, https://m.media-amazon.com/images/I/51ga1DANA8L._AC_UL960_FMwebp_QL65_.jpg 3x"
+                                            alt="Samsung Original Type C to C Cable - 3.28 Feet (1 Meter), White"
+                                            aria-hidden="true" data-image-index="7" data-image-load=""
+                                            data-image-latency="s-product-image" data-image-source-density="1">
+                                    </div>
+                                </span>
+
 
                             </div>
                             <div class="details">
@@ -865,13 +906,16 @@
                     <div class="each">
                         <div class="each-one">
                             <div class="image">
-                                <div class="image1">
-                                    <img class="s-image" src="./Amazon.in_files/717Q2swzhBL._AC_UL320_.jpg"
-                                        srcset="https://m.media-amazon.com/images/I/717Q2swzhBL._AC_UL320_.jpg 1x, https://m.media-amazon.com/images/I/717Q2swzhBL._AC_UL480_FMwebp_QL65_.jpg 1.5x, https://m.media-amazon.com/images/I/717Q2swzhBL._AC_UL640_FMwebp_QL65_.jpg 2x, https://m.media-amazon.com/images/I/717Q2swzhBL._AC_UL800_FMwebp_QL65_.jpg 2.5x, https://m.media-amazon.com/images/I/717Q2swzhBL._AC_UL960_FMwebp_QL65_.jpg 3x"
-                                        alt="Samsung Galaxy S24 Ultra 5G AI Smartphone with Galaxy AI (Titanium Gray, 12GB, 256GB Storage), Snapdragon 8 Gen 3, 200 MP ..."
-                                        aria-hidden="true" data-image-index="8" data-image-load=""
-                                        data-image-latency="s-product-image" data-image-source-density="1">
-                                </div>
+                                <span class="span-image">
+                                    <div class="image1">
+                                        <img class="s-image" src="./Amazon.in_files/717Q2swzhBL._AC_UL320_.jpg"
+                                            srcset="https://m.media-amazon.com/images/I/717Q2swzhBL._AC_UL320_.jpg 1x, https://m.media-amazon.com/images/I/717Q2swzhBL._AC_UL480_FMwebp_QL65_.jpg 1.5x, https://m.media-amazon.com/images/I/717Q2swzhBL._AC_UL640_FMwebp_QL65_.jpg 2x, https://m.media-amazon.com/images/I/717Q2swzhBL._AC_UL800_FMwebp_QL65_.jpg 2.5x, https://m.media-amazon.com/images/I/717Q2swzhBL._AC_UL960_FMwebp_QL65_.jpg 3x"
+                                            alt="Samsung Galaxy S24 Ultra 5G AI Smartphone with Galaxy AI (Titanium Gray, 12GB, 256GB Storage), Snapdragon 8 Gen 3, 200 MP ..."
+                                            aria-hidden="true" data-image-index="8" data-image-load=""
+                                            data-image-latency="s-product-image" data-image-source-density="1">
+                                    </div>
+
+                                </span>
 
                             </div>
                             <div class="details">
@@ -930,13 +974,16 @@
                     <div class="each">
                         <div class="each-one">
                             <div class="image">
-                                <div class="image1">
-                                    <img class="s-image" src="./Amazon.in_files/71s6rRbgfuL._AC_UL320_.jpg"
-                                        srcset="https://m.media-amazon.com/images/I/71s6rRbgfuL._AC_UL320_.jpg 1x, https://m.media-amazon.com/images/I/71s6rRbgfuL._AC_UL480_FMwebp_QL65_.jpg 1.5x, https://m.media-amazon.com/images/I/71s6rRbgfuL._AC_UL640_FMwebp_QL65_.jpg 2x, https://m.media-amazon.com/images/I/71s6rRbgfuL._AC_UL800_FMwebp_QL65_.jpg 2.5x, https://m.media-amazon.com/images/I/71s6rRbgfuL._AC_UL960_FMwebp_QL65_.jpg 3x"
-                                        alt="Samsung Galaxy M06 5G (Blazing Black, 6GB RAM, 128 GB Storage) | MediaTek Dimensity 6300 | AnTuTu Score 422K+ | 12 5G Band..."
-                                        aria-hidden="true" data-image-index="9" data-image-load=""
-                                        data-image-latency="s-product-image" data-image-source-density="1">
-                                </div>
+                                <span class="span-image">
+                                    <div class="image1">
+                                        <img class="s-image" src="./Amazon.in_files/71s6rRbgfuL._AC_UL320_.jpg"
+                                            srcset="https://m.media-amazon.com/images/I/71s6rRbgfuL._AC_UL320_.jpg 1x, https://m.media-amazon.com/images/I/71s6rRbgfuL._AC_UL480_FMwebp_QL65_.jpg 1.5x, https://m.media-amazon.com/images/I/71s6rRbgfuL._AC_UL640_FMwebp_QL65_.jpg 2x, https://m.media-amazon.com/images/I/71s6rRbgfuL._AC_UL800_FMwebp_QL65_.jpg 2.5x, https://m.media-amazon.com/images/I/71s6rRbgfuL._AC_UL960_FMwebp_QL65_.jpg 3x"
+                                            alt="Samsung Galaxy M06 5G (Blazing Black, 6GB RAM, 128 GB Storage) | MediaTek Dimensity 6300 | AnTuTu Score 422K+ | 12 5G Band..."
+                                            aria-hidden="true" data-image-index="9" data-image-load=""
+                                            data-image-latency="s-product-image" data-image-source-density="1">
+                                    </div>
+
+                                </span>
 
                             </div>
                             <div class="details">
@@ -995,13 +1042,16 @@
                     <div class="each">
                         <div class="each-one">
                             <div class="image">
-                                <div class="image1">
-                                    <img class="s-image" src="./Amazon.in_files/71eUNTW+nJL._AC_UL320_.jpg"
-                                        srcset="https://m.media-amazon.com/images/I/71eUNTW+nJL._AC_UL320_.jpg 1x, https://m.media-amazon.com/images/I/71eUNTW+nJL._AC_UL480_FMwebp_QL65_.jpg 1.5x, https://m.media-amazon.com/images/I/71eUNTW+nJL._AC_UL640_FMwebp_QL65_.jpg 2x, https://m.media-amazon.com/images/I/71eUNTW+nJL._AC_UL800_FMwebp_QL65_.jpg 2.5x, https://m.media-amazon.com/images/I/71eUNTW+nJL._AC_UL960_FMwebp_QL65_.jpg 3x"
-                                        alt="Samsung Galaxy S24 FE 5G AI Smartphone (Graphite, 8GB RAM, 128GB Storage)"
-                                        aria-hidden="true" data-image-index="10" data-image-load=""
-                                        data-image-latency="s-product-image" data-image-source-density="1">
-                                </div>
+                                <span class="span-image">
+                                    <div class="image1">
+                                        <img class="s-image" src="./Amazon.in_files/71eUNTW+nJL._AC_UL320_.jpg"
+                                            srcset="https://m.media-amazon.com/images/I/71eUNTW+nJL._AC_UL320_.jpg 1x, https://m.media-amazon.com/images/I/71eUNTW+nJL._AC_UL480_FMwebp_QL65_.jpg 1.5x, https://m.media-amazon.com/images/I/71eUNTW+nJL._AC_UL640_FMwebp_QL65_.jpg 2x, https://m.media-amazon.com/images/I/71eUNTW+nJL._AC_UL800_FMwebp_QL65_.jpg 2.5x, https://m.media-amazon.com/images/I/71eUNTW+nJL._AC_UL960_FMwebp_QL65_.jpg 3x"
+                                            alt="Samsung Galaxy S24 FE 5G AI Smartphone (Graphite, 8GB RAM, 128GB Storage)"
+                                            aria-hidden="true" data-image-index="10" data-image-load=""
+                                            data-image-latency="s-product-image" data-image-source-density="1">
+                                    </div>
+                                </span>
+
 
                             </div>
                             <div class="details">
@@ -1058,13 +1108,16 @@
                     <div class="each">
                         <div class="each-one">
                             <div class="image">
-                                <div class="image1">
-                                    <img class="s-image" src="./Amazon.in_files/718tAI-i2uL._AC_UL320_.jpg"
-                                        srcset="https://m.media-amazon.com/images/I/718tAI-i2uL._AC_UL320_.jpg 1x, https://m.media-amazon.com/images/I/718tAI-i2uL._AC_UL480_FMwebp_QL65_.jpg 1.5x, https://m.media-amazon.com/images/I/718tAI-i2uL._AC_UL640_FMwebp_QL65_.jpg 2x, https://m.media-amazon.com/images/I/718tAI-i2uL._AC_UL800_FMwebp_QL65_.jpg 2.5x, https://m.media-amazon.com/images/I/718tAI-i2uL._AC_UL960_FMwebp_QL65_.jpg 3x"
-                                        alt="Samsung Galaxy M06 5G (Sage Green, 4GB RAM, 128 GB Storage) | MediaTek Dimensity 6300 | AnTuTu Score 422K+ | 12 5G Bands| ..."
-                                        aria-hidden="true" data-image-index="11" data-image-load=""
-                                        data-image-latency="s-product-image" data-image-source-density="1">
-                                </div>
+                                <span class="span-image">
+                                    <div class="image1">
+                                        <img class="s-image" src="./Amazon.in_files/718tAI-i2uL._AC_UL320_.jpg"
+                                            srcset="https://m.media-amazon.com/images/I/718tAI-i2uL._AC_UL320_.jpg 1x, https://m.media-amazon.com/images/I/718tAI-i2uL._AC_UL480_FMwebp_QL65_.jpg 1.5x, https://m.media-amazon.com/images/I/718tAI-i2uL._AC_UL640_FMwebp_QL65_.jpg 2x, https://m.media-amazon.com/images/I/718tAI-i2uL._AC_UL800_FMwebp_QL65_.jpg 2.5x, https://m.media-amazon.com/images/I/718tAI-i2uL._AC_UL960_FMwebp_QL65_.jpg 3x"
+                                            alt="Samsung Galaxy M06 5G (Sage Green, 4GB RAM, 128 GB Storage) | MediaTek Dimensity 6300 | AnTuTu Score 422K+ | 12 5G Bands| ..."
+                                            aria-hidden="true" data-image-index="11" data-image-load=""
+                                            data-image-latency="s-product-image" data-image-source-density="1">
+                                    </div>
+                                </span>
+
 
                             </div>
                             <div class="details">
@@ -1078,9 +1131,9 @@
                                 </div>
                                 <div class="rating">
                                     <div class="stars">
-                                        <span class="star-4"></span>
+                                        <span class="star-4"></span>             
                                         <i class="down-arrow"></i>
-                                        <p>1,200</p>
+                                        <p>1,200</p>         
                                     </div>
                                     <p class="brag">3K+ bought in past month</p>
                                 </div>
@@ -1123,13 +1176,16 @@
                     <div class="each">
                         <div class="each-one">
                             <div class="image">
-                                <div class="image1">
-                                    <img class="s-image" src="./Amazon.in_files/71Nwtop9jtL._AC_UL320_.jpg"
-                                        srcset="https://m.media-amazon.com/images/I/71Nwtop9jtL._AC_UL320_.jpg 1x, https://m.media-amazon.com/images/I/71Nwtop9jtL._AC_UL480_FMwebp_QL65_.jpg 1.5x, https://m.media-amazon.com/images/I/71Nwtop9jtL._AC_UL640_FMwebp_QL65_.jpg 2x, https://m.media-amazon.com/images/I/71Nwtop9jtL._AC_UL800_FMwebp_QL65_.jpg 2.5x, https://m.media-amazon.com/images/I/71Nwtop9jtL._AC_UL960_FMwebp_QL65_.jpg 3x"
-                                        alt="Samsung Galaxy S24 Ultra 5G AI Smartphone with Galaxy AI (Titanium Black, 12GB, 256GB Storage), Snapdragon 8 Gen 3, 200 MP..."
-                                        aria-hidden="true" data-image-index="12" data-image-load=""
-                                        data-image-latency="s-product-image" data-image-source-density="1">
-                                </div>
+                                <span class="span-image">
+                                    <div class="image1">
+                                        <img class="s-image" src="./Amazon.in_files/71Nwtop9jtL._AC_UL320_.jpg"
+                                            srcset="https://m.media-amazon.com/images/I/71Nwtop9jtL._AC_UL320_.jpg 1x, https://m.media-amazon.com/images/I/71Nwtop9jtL._AC_UL480_FMwebp_QL65_.jpg 1.5x, https://m.media-amazon.com/images/I/71Nwtop9jtL._AC_UL640_FMwebp_QL65_.jpg 2x, https://m.media-amazon.com/images/I/71Nwtop9jtL._AC_UL800_FMwebp_QL65_.jpg 2.5x, https://m.media-amazon.com/images/I/71Nwtop9jtL._AC_UL960_FMwebp_QL65_.jpg 3x"
+                                            alt="Samsung Galaxy S24 Ultra 5G AI Smartphone with Galaxy AI (Titanium Black, 12GB, 256GB Storage), Snapdragon 8 Gen 3, 200 MP..."
+                                            aria-hidden="true" data-image-index="12" data-image-load=""
+                                            data-image-latency="s-product-image" data-image-source-density="1">
+                                    </div>
+                                </span>
+
 
                             </div>
                             <div class="details">
@@ -1210,18 +1266,18 @@
                                 <li style="color: #6f7373;">29</li>
                                 <li></li>
                                 <span style="color: black;">
-                                 
+
                                     Next
-                                       
+
 
                                 </span>
-                                  <svg xmlns="http://www.w3.org/2000/svg" width="8" height="12" viewBox="0 0 8 12"
-                                        focusable="false" aria-hidden="true" style="fill: black;">
-                                        <path
-                                            d="M2.126.35a1.28 1.28 0 00-1.761 0 1.165 1.165 0 000 1.695L4.478 6 .365 9.955a1.165 1.165 0 000 1.694 1.28 1.28 0 001.76 0L8 6 2.126.35z">
-                                        </path>
-                                    </svg>
-                                  
+                                <svg xmlns="http://www.w3.org/2000/svg" width="8" height="12" viewBox="0 0 8 12"
+                                    focusable="false" aria-hidden="true" style="fill: black;">
+                                    <path
+                                        d="M2.126.35a1.28 1.28 0 00-1.761 0 1.165 1.165 0 000 1.695L4.478 6 .365 9.955a1.165 1.165 0 000 1.694 1.28 1.28 0 001.76 0L8 6 2.126.35z">
+                                    </path>
+                                </svg>
+
 
 
                             </ul>
@@ -1230,24 +1286,77 @@
                     </div>
                 </div>
 
-                <div class="help">
-                    <h2>Need help?</h2>
-                    <div>
-                        <span>Visit the help section</span>
-                        <span>or</span>
-                        <span>contact us</span>
-                    </div>
 
-                </div>
 
-                <div class="ad">
-                    
-                </div>
+
 
 
             </div>
+            <div class="help">
+                <h2>Need help?</h2>
+                <div>
+                    <span>Visit the help section</span>
+                    <span>or</span>
+                    <span>contact us</span>
+                </div>
+
+            </div>
+            <div class="ad">
+                <div class="image">
+                    <img loading="eager" alt="Product image" src="assets/ad.webp">
+
+                </div>
+                <div class="buy-box">
+                    <p>
+                        Lava Agni 3 5G (Pristine Glass, 8GB+128GB) | India's 1st Dual AMOLED | 1.5K Curved Display |
+                        Dimensity 7300X | 50MP Triple AI Telephoto Camera | 66W Fast Charge | with Charging Adapter
+                    </p>
+                    <span class="off">31% off</span>
+
+                </div>
+
+            </div>
         </div>
-    </main>
+    </main>              
 </body>
 
 </html>
+                                     
+                             
+                                                        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+                                                      
+                                 
+   
+                        
+                                                                           
+                                                                     
+ 
+                                                                                                                                                                                                                       
+
+                                                                                                 
+                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                                               
+                               
+
+
+
+                                     
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+                                                               
+
+                                      
+                                        
+                          
+                           
+                         
+                                                   
+                                                                                                                      
+                                                                                                              
+                                                                      
+                                                             
+                                              
+                                             
+                                                  
+                                                       
+                
