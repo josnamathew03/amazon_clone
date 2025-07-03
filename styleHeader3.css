@@ -17,7 +17,6 @@
 
 .third a,
 .third .a1 {
-    padding: 0 13px;
     align-self: center;
     height: 48px;
     font-size: 12px;
@@ -28,10 +27,13 @@
 }
 .third .a1{
     flex: 0 0 auto;
+    padding: 0 13px;
+
 }
 
 .third a {
     flex: 1 0 auto;
+    padding: 0 0;
 }
 
 .third img {

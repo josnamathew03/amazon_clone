@@ -119,7 +119,7 @@
     vertical-align: top;
     border: 0;
     background: rgb(245, 245, 245);
-    border-radius: 15px;
+    /* border-radius: 15px; */
     background-color: rgb(245, 245, 245);
         overflow-clip-margin: content-box;
     overflow: clip;
@@ -131,7 +131,7 @@
 .product .details {
     padding: 0 8px;
     box-sizing: border-box;
-    margin-bottom: 8px;
+    margin-bottom: 15.5px;
 }
 
 .details .name {
@@ -176,7 +176,7 @@
 
 .rating .down-arrow {
     background-image: url(assets/icons.png);
-    background-size: 512px;
+    background-size: 512px; 
     background-position: -429px -357px;
     height: 16px;
     width: 16px;
@@ -255,9 +255,15 @@
 }
 .price .up{
     line-height: 18.2px !important;
+    -webkit-line-clamp: 1;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden; 
+    margin-bottom: 5.5px;
 }
 .details .prime {
-    padding-top: 11px;
+    padding-top: 7.5px;
     vertical-align: middle;
 }
 
@@ -272,22 +278,24 @@
     background-repeat: no-repeat;
     display: inline-block;
 }
+.prime .del-class{
+    margin-top: 1px;
+}
 .prime p span{
     color: black !important;
 }
 .prime .big{
-    font-weight: 700;
-    letter-spacing: .2px;
+    font-family: 'bold' !important;
 
 }
 .details .more{                                                                                                                                           
     padding-top: 4px;
-    width: 100%;
+    width: 100%;      
 }
 .details .add{
     padding-top: 4px;
     width: 90px;
-    height: 36px;
+    height: 35.5px;
     margin-bottom: 12px;
 
 }
@@ -296,7 +304,7 @@
     width: 100%;
     height: 100%;
     border-radius: 99px;
-    padding: 0 12px 0 12px;
+    /* padding: 0 12px 0 12px; */
     background-color: rgb(255, 216, 20);
     border: none;
     line-height: 30px;
@@ -421,5 +429,87 @@
     padding: 0 6px;
     color: white;
     border-radius: 2px;
+
+}
+
+/* ---------------------------------- */
+.rec-wrap{
+    min-width: 960px;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.recommend{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.recommend p{
+    font-size: 20px;
+    text-align: left;
+    color: #444;
+    font-weight: 400;
+    padding: 10.5px 10px 12px 10px;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+.recommend .rec{
+    padding: 0 10px 29px ;
+    line-height: 75px;
+    overflow:hidden;
+    height: 75px;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+
+
+
+}
+.rec span{
+    /* float: left; */
+    font-size: 13px;
+    font-style: italic;
+    box-sizing: border-box;
+    align-self: center;
+    /* letter-spacing: -.1px; */
+}
+.rec .right-box{
+    /* float: right; */
+    margin-top: 5px;
+    padding-left: 40px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    color: #0066c0;
+
+}
+.right-box .arrow-i{
+    font-size: 11px;
+    margin-top: -2px;
+    padding-right: 8px;
+    display: inline-block;
+    font-weight: 700;
+    line-height: 11px;
+    vertical-align: top;
+    box-sizing: border-box;
+
+
+}
+.right-box .view{
+    width: 80px;
+    font-size: 10px;
+    display: inline-block;
+    /* font-weight: 700; */
+    line-height: 11px;
+    vertical-align: top;
+    /* box-sizing: border-box; */
+}
+.view a{
+    text-decoration: none;
+    font-family: 'bold';
+    color: #2162a1;
+
 
 }
