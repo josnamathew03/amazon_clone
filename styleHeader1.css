@@ -31,6 +31,12 @@
     /* src: url(assets/font/bold.woff2); */
 
 }
+@font-face {
+    font-family: 'button';
+    src: url(assets/font/button.woff2);
+    /* src: url(assets/font/bold.woff2); */
+
+}
 
 
 /* ---------------------------------------------------------------- */
@@ -55,7 +61,7 @@ a,
 li,
 span,
 select,
-ul {
+ul,button {
 
     /* font-family: "regular"; */
     font-family: "regular";
