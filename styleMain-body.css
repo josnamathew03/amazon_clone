@@ -15,7 +15,7 @@
     align-items: stretch;
     justify-items: stretch;
     margin: 0 -4px 0 -4px;
-    width: auto;      
+    width: auto;
     align-content: flex-start;
 }
 
@@ -27,7 +27,7 @@
 
 .heading h2 {
     margin: 0;
-        font-size: 20px;
+    font-size: 20px;
     line-height: 28px;
 
     /* letter-spacing: 1.4px; */
@@ -37,10 +37,11 @@
 .heading p {
     color: #565959;
 }
-.product *{ 
+
+.product * {
     box-sizing: border-box;
 }
-                                                                        
+
 .product {
     grid-column: auto / span 4;
     width: auto;
@@ -68,37 +69,38 @@
 }
 
 .product .image {
-    margin-bottom: 8px;                               
-    padding: 0 8px;             
+    margin-bottom: 8px;
+    padding: 0 8px;
     display: flex;
-    flex-direction: column;                 
-    justify-content: center;                                                                             
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
     /* width: auto; */
-   position: relative;
+    position: relative;
     overflow: hidden;
-   
+
     border: none;
-        font-size: 14px;
+    font-size: 14px;
     line-height: 20px;
 
-} 
+}
 
-.product .span-image::after{
+.product .span-image::after {
     position: absolute;
-      content: '';
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: #000;
-      opacity: .03;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .03;
 
 }
-.image .image1{
-    
+
+.image .image1 {
+
     padding-top: 100%;
-      position: relative;
+    position: relative;
 
     overflow: hidden;
 
@@ -108,11 +110,11 @@
 
     max-height: 100%;
     max-width: 100%;
-    position: absolute;       
+    position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
-    right: 0;          
+    right: 0;
     box-sizing: border-box;
 
     margin: auto;
@@ -121,7 +123,7 @@
     background: rgb(245, 245, 245);
     /* border-radius: 15px; */
     background-color: rgb(245, 245, 245);
-        overflow-clip-margin: content-box;
+    overflow-clip-margin: content-box;
     overflow: clip;
     text-align: center;
 
@@ -140,8 +142,8 @@
     font-weight: 400;
     box-sizing: border-box;
     overflow: hidden !important;
-    font-size: 16px;                                     
-        line-height: 24px;
+    font-size: 16px;
+    line-height: 24px;
     /* letter-spacing: .03px; */
     -webkit-line-clamp: 4;
     text-overflow: ellipsis;
@@ -176,29 +178,29 @@
 
 .rating .down-arrow {
     background-image: url(assets/icons.png);
-    background-size: 512px; 
+    background-size: 512px;
     background-position: -429px -357px;
     height: 16px;
     width: 16px;
     /* align-self: center; */
 }
-       
+
 .rating .stars p {
     color: #2162a1;
     font-size: 14px !important;
     line-height: 20px !important;
-    box-sizing: border-box;                                                                                        
+    box-sizing: border-box;
     padding-left: 3px;
     align-self: flex-start;
     /* padding-bottom: 2px; */
     /* transform: translateY(-1px); */
 
-}         
+}
 
 .rating .brag {
     color: #565959;
     font-size: 14px !important;
-    line-height: 20px !important;                                             
+    line-height: 20px !important;
     box-sizing: border-box;
     width: 100%;
 }
@@ -206,19 +208,20 @@
 .details .price {
     margin-top: 8px;
     width: 100%;
-}        
+}
 
 .price .price-flex {
     display: flex;
     flex-wrap: wrap;
 }
-.price-flex .price-i{
-    align-self:center;
+
+.price-flex .price-i {
+    align-self: center;
     margin-top: -8.5px;
     margin-left: 0;
     font-size: 13px;
     margin-bottom: 0;
-}                             
+}
 
 .price-flex h2 {
     font-size: 28px;
@@ -231,11 +234,13 @@
     line-height: 20px !important;
     align-self: flex-end;
 }
-.price-flex p{                                               
-       margin-left: 3.5px;
+
+.price-flex p {
+    margin-left: 3.5px;
     margin-bottom: 2.5px;
 
 }
+
 .price-flex .cross {
     text-decoration: line-through;
     /* letter-spacing: -.35px; */
@@ -245,23 +250,25 @@
 
 .price-flex span {
     align-self: flex-end;
-   margin-left: 9.5px;
+    margin-left: 9.5px;
     margin-bottom: 4px;
-     white-space: normal;   
-  word-break: break-word;  
-  display: inline-block;         
-  max-width: 100%;   
+    white-space: normal;
+    word-break: break-word;
+    display: inline-block;
+    max-width: 100%;
 
 }
-.price .up{
+
+.price .up {
     line-height: 18.2px !important;
     -webkit-line-clamp: 1;
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    overflow: hidden; 
+    overflow: hidden;
     margin-bottom: 5.5px;
 }
+
 .details .prime {
     padding-top: 7.5px;
     vertical-align: middle;
@@ -278,28 +285,34 @@
     background-repeat: no-repeat;
     display: inline-block;
 }
-.prime .del-class{
+
+.prime .del-class {
     margin-top: 1px;
 }
-.prime p span{
+
+.prime p span {
     color: black !important;
 }
-.prime .big{
+
+.prime .big {
     font-family: 'bold' !important;
 
 }
-.details .more{                                                                                                                                           
+
+.details .more {
     padding-top: 4px;
-    width: 100%;      
+    width: 100%;
 }
-.details .add{
+
+.details .add {
     padding-top: 4px;
     width: 90px;
     height: 35.5px;
     margin-bottom: 12px;
 
 }
-.add button{
+
+.add button {
     margin-top: 4px;
     width: 100%;
     height: 100%;
@@ -316,42 +329,46 @@
 
 
 
-.prev-next{
+.prev-next {
     margin-top: 8px;
     padding: 0 4px;
     grid-column: 1/-1;
     box-sizing: border-box;
 }
-.prev-next .inner{
+
+.prev-next .inner {
     margin-bottom: 16px;
     height: calc(100% - 16px);
     box-sizing: border-box;
     text-align: center;
 
 }
-.inner .box{
+
+.inner .box {
     display: inline-block;
     white-space: nowrap;
     border-radius: 8px;
-   box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
-   box-sizing: border-box;
-   /* background-color: #2162a1; */
-       border-left: 1px solid #d5d9d9;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    /* background-color: #2162a1; */
+    border-left: 1px solid #d5d9d9;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
-      border-top: 1px solid #d5d9d9;
+    border-top: 1px solid #d5d9d9;
     border-bottom: 1px solid #d5d9d9;
 }
-.inner ul{
+
+.inner ul {
     display: flex;
 
 }
-.box span{
 
-        min-width: 70px;
-            line-height: 46px;
+.box span {
+
+    min-width: 70px;
+    line-height: 46px;
     padding: 0 12px;
-  
+
     min-width: 24px;
     height: 46px;
     position: relative;
@@ -359,7 +376,8 @@
     color: #6f7373;
 
 }
-.box svg{
+
+.box svg {
     fill: #6f7373;
     margin-top: 17px;
     margin-right: 7px;
@@ -368,7 +386,8 @@
     /* width: 8px;
     height: 12px; */
 }
-.box li{
+
+.box li {
     color: #0f1111;
     /* border: 1px solid #0f1111;
     font-weight: 700; */
@@ -377,15 +396,15 @@
 }
 
 
-.help{
+.help {
     grid-column: 1/-1;
-    padding:0 4px ;
+    padding: 0 4px;
     margin: 16px 0 32px;
     height: calc(100% - 16px);
     box-sizing: border-box;
 }
 
-.ad{
+.ad {
     width: 100%;
     height: 100%;
     display: grid;
@@ -395,33 +414,38 @@
     box-sizing: border-box;
     grid-template-areas: "image buy-box";
 }
-.ad .image{
+
+.ad .image {
     grid-area: image;
     width: 100%;
     height: 100%;
 }
-.ad .image img{
-    width:100%;
+
+.ad .image img {
+    width: 100%;
     height: 100%;
     object-fit: scale-down;
     box-sizing: border-box;
-    padding: 2px;    
+    padding: 2px;
     transform: scale(0.78);
     position: relative;
 }
-.ad .buybox{
+
+.ad .buybox {
     grid-area: buy-box;
     width: 100%;
-    height: 100%; 
+    height: 100%;
 }
-.ad p{
+
+.ad p {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
     text-align: start;
     /* width: 200%; */
 }
-.ad span{
+
+.ad span {
     background-color: rgb(204, 12, 57);
     line-height: 16px;
     font-weight: 700;
@@ -433,19 +457,20 @@
 }
 
 /* ---------------------------------- */
-.rec-wrap{
+.rec-wrap {
     min-width: 960px;
     display: block;
     margin-bottom: 50px;
 }
 
-.recommend{
+.recommend {
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 0 20px;
     box-sizing: border-box;
 }
-.recommend p{
+
+.recommend p {
     font-size: 20px;
     text-align: left;
     color: #444;
@@ -454,10 +479,11 @@
     white-space: nowrap;
     box-sizing: border-box;
 }
-.recommend .rec{
-    padding: 0 10px 29px ;
+
+.recommend .rec {
+    padding: 0 10px 29px;
     line-height: 75px;
-    overflow:hidden;
+    overflow: hidden;
     height: 75px;
     position: relative;
     box-sizing: border-box;
@@ -468,7 +494,8 @@
 
 
 }
-.rec span{
+
+.rec span {
     /* float: left; */
     font-size: 13px;
     font-style: italic;
@@ -476,7 +503,8 @@
     align-self: center;
     /* letter-spacing: -.1px; */
 }
-.rec .right-box{
+
+.rec .right-box {
     /* float: right; */
     margin-top: 5px;
     padding-left: 40px;
@@ -485,7 +513,8 @@
     color: #0066c0;
 
 }
-.right-box .arrow-i{
+
+.right-box .arrow-i {
     font-size: 11px;
     margin-top: -2px;
     padding-right: 8px;
@@ -497,7 +526,8 @@
 
 
 }
-.right-box .view{
+
+.right-box .view {
     width: 80px;
     font-size: 10px;
     display: inline-block;
@@ -506,10 +536,14 @@
     vertical-align: top;
     /* box-sizing: border-box; */
 }
-.view a{
+
+.view a {
     text-decoration: none;
     font-family: 'bold';
     color: #2162a1;
 
 
 }
+
+
+/* ---------------------------------------------------------------------- */
