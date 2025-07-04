@@ -21,7 +21,7 @@
     src: url(assets/font/new.woff2);
     /* src: url(assets/font/contents.woff2) */
 
-    
+
 
 }
 
@@ -31,6 +31,7 @@
     /* src: url(assets/font/bold.woff2); */
 
 }
+
 @font-face {
     font-family: 'button';
     src: url(assets/font/button.woff2);
@@ -41,6 +42,11 @@
 
 /* ---------------------------------------------------------------- */
 /* reset */
+
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-size: 14px;
 }
@@ -61,7 +67,8 @@ a,
 li,
 span,
 select,
-ul,button {
+ul,
+button {
 
     /* font-family: "regular"; */
     font-family: "regular";
@@ -233,7 +240,7 @@ header {
     width: auto;
     height: 38px !important;
     position: relative;
-    display: flex;       
+    display: flex;
     float: none;
     inset: 0;
 
@@ -261,7 +268,8 @@ header {
 
     height: 100%;
 }
- .drop-icon{
+
+.drop-icon {
     background-image: url(https://m.media-amazon.com/images/G/31/gno/sprites/nav-sprite-global-1x-reorg-privacy._CB546381437_.png);
     background-position: 0 1000px;
     position: absolute;
@@ -277,7 +285,7 @@ header {
     width: 0px;
     height: 0px;
     background-repeat: repeat-x;
- 
+
     display: inline-block;
 
 }
@@ -496,3 +504,11 @@ header {
     font-weight: 700;
     align-self: center;
 }
+
+
+.mobile {
+    display: none;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------- */
+
