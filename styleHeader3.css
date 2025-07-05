@@ -25,7 +25,8 @@
     display: inline-block;
     text-align: center;
 }
-.third .a1{
+
+.third .a1 {
     flex: 0 0 auto;
     padding: 0 13px;
 
@@ -33,7 +34,12 @@
 
 .third a {
     flex: 1 0 auto;
-    padding: 0 0;
+    padding: 0 1.5099%;
+
+}
+
+.third .office {
+    padding: 0 1%;
 }
 
 .third img {
@@ -114,12 +120,14 @@
     min-width: 373.5px;
     max-width: 673.5px;
     overflow: visible;
+    position: relative;
+
 }
 
 .sort1 .sort2 {
     text-align: right !important;
     /* margin-top: 8px !important; */
-    border:.683px solid rgb(213, 217, 217);
+    border: .683px solid rgb(213, 217, 217);
     /* box-sizing: unset; */
     display: flex;
     flex-wrap: nowrap;
@@ -127,7 +135,7 @@
     background: rgba(240, 242, 242);
     border-radius: 7px;
     height: 22px !important;
-    padding: 0px 4px 0px 8px;
+    padding: 0px 26px 0px 8px;
     /* width: 132.84px; */
 }
 
@@ -142,6 +150,7 @@
     color: #111;
     /* width: 100%; */
     display: inline-block;
+    /* padding-right: 16px; */
     border: none;
     text-align: right;
     background: rgba(240, 242, 242);
@@ -151,7 +160,20 @@
     line-height: 22px;
     font-family: "regular", Arial, sans-serif
 }
-.sort2 i{
-    color: #555;
-    margin: 4px 5px 0 10px;
+
+.sort2 .sort-i {
+    position: absolute;
+    top: 5.5px;
+    right: 13px;
+    background-image: url(https://m.media-amazon.com/images/S/sash/f9Cwl2OUDVHGXk8.png);
+    width: 10px;
+    height: 8px;
+    background-position: -7px -102px;
+    display: inline-block;
+    vertical-align: top;
+    background-size: 400px 900px;
+    background-repeat: no-repeat;
+
+
+
 }

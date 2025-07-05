@@ -1,4 +1,5 @@
 footer {
+    /* display: none; */
     min-width: 1000px;
     background-color: #232f3e;
     position: relative;
@@ -96,7 +97,7 @@ footer .to-top {
 
 }
 .iconn{
-     margin: 30px auto 7px;
+     margin: 30px auto 6px;
     text-align: center;
     max-width: 1000px;
     box-sizing: border-box;
