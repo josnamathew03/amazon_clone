@@ -317,12 +317,12 @@ color: #007185;
 
 
 .price-tag .button-span{
-    margin-left: 8px;
+    margin-left: 7.9px;
     line-height: 16px;
     word-break: break-word;
 }
 .price-tag button{
-    padding: 7px 11.5px;
+    padding: 7px 12.5px;
     border-radius: 100px;
     background-color: #fff;
     border:1px solid #868484;

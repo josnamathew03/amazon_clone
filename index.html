@@ -63,18 +63,30 @@
                 </div>
                 <div class="last">
                     <div class="lang">
-                        <span class="flag"></span>
-                        <span>EN</span>
-                        <i class="fa fa-caret-down"></i>
+                        <div class="fe">
+                            <span class="space"></span>
+                            <div class="for-space">
+                                <span class="flag"></span>
+                                <span style="line-height: 15px; font-family: 'bold';">EN</span>
+                            </div>
+
+                        </div>
+
+                        <i class="downn"></i>
                         <!-- <select name="lang" id="">
                         <option value="">EN</option>
                     </select> -->
                     </div>
                     <div class="hi">
-                        <p>Hello, sign in</p>
-                        <select name="acc" id="">
-                            <option value="lists">Accounts & Lists</option>
-                        </select>
+                        <div class="hi-wrap">
+                            <p>Hello, sign in</p>
+                            <span>Account & Lists</span>
+                        </div>
+
+                        <span class="downn"></span>
+                        <!-- <select name="acc" id="">
+                            <option value="lists"></option>
+                        </select> -->
                     </div>
                     <div class="return">
                         <p>Returns</p>
@@ -85,7 +97,11 @@
                             <span class="span1">0</span>
                             <div class="cart-icon"></div>
                         </div>
-                        <p>cart</p>
+                        <div class="pc">
+                            <span class="hei">&nbsp</span>
+                            <p>Cart</p>
+
+                        </div>
                     </div>
                 </div>
             </section>
@@ -178,7 +194,10 @@
                 <a>Computer Peripherals</a>
                 <a>Smart Technology</a>
                 <a href="">Musical instruments</a>
-                <a href="">Office & Stationary</a>
+                <a href="" class="office">
+                    
+                        Office & Stationary
+                    </a>
             </section>
             <section class="fourth">
                 <div class="sort">
@@ -189,7 +208,7 @@
                         <div class="sort2">
                             <label for="">Sort by:</label>
                             <span>Bestselling</span>
-                            <i class="fa fa-caret-down"></i>
+                            <i class="sort-i"></i>
 
                             <!-- <select name="sort" id="">
                             <option value="">Bestselling</option>
@@ -546,7 +565,7 @@
                                     <div class="add" style="margin-bottom: 3px;">
                                         <button>Add to cart</button>
                                     </div>
-                                    <div class="more">
+                                    <div class="more-buy">
                                         <p>More Buying Choices</p>
                                         <div style="display: flex;">
                                             <span>₹979</span>
@@ -703,7 +722,7 @@
                                     <div class="add" style="margin-bottom: 3px;">
                                         <button>Add to cart</button>
                                     </div>
-                                    <div class="more">
+                                    <div class="more-buy">
                                         <p>More Buying Choices</p>
                                         <div style="display: flex;">
                                             <span>₹979</span>
@@ -1272,45 +1291,53 @@
                         <div class="inner">
                             <span class="box">
                                 <ul>
-                                    <span>
+                                    <span class="span1 i">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="8" height="12" viewBox="0 0 8 12"
-                                            focusable="false" aria-hidden="true">
+                                            focusable="false" aria-hidden="true"
+                                            style="margin-right: 3px; margin-top: 17px;">
                                             <path
                                                 d="M5.874.35a1.28 1.28 0 011.761 0 1.165 1.165 0 010 1.695L3.522 6l4.113 3.955a1.165 1.165 0 010 1.694 1.28 1.28 0 01-1.76 0L0 6 5.874.35z">
                                             </path>
                                         </svg>
-                                        Previous</span>
-                                    <li style=" border: 1px solid #0f1111; font-weight: 700; ">
-                                        <span>1</span>
+                                        Previous
+                                    </span>
+
+                                    <li style=" border: 1px solid #0f1111; font-family: 'bold'; font-weight: 700;">
+                                        <span style="padding: 0 11px;" class="9 spa">1</span>
                                     </li>
                                     <li>
-                                        <span>2
+                                        <span class="i spa">2
                                         </span>
                                     </li>
 
                                     <li>
-                                        <span>3</span>
+                                        <span class="i spa">3</span>
                                     </li>
-                                    <li><svg xmlns="http://www.w3.org/2000/svg" width="10" height="2" viewBox="0 0 10 2"
-                                            aria-hidden="true">
+                                    <span class="ellipse i"><svg xmlns="http://www.w3.org/2000/svg" width="10"
+                                            height="2" viewBox="0 0 10 2" aria-hidden="true" class="svg-ellipse">
                                             <path
                                                 d="M9 2c-.608 0-1-.425-1-1s.392-1 1-1 1 .448 1 1c0 .575-.392 1-1 1zM5 2c-.608 0-1-.425-1-1s.392-1 1-1 1 .448 1 1c0 .575-.392 1-1 1zM1 2c-.608 0-1-.425-1-1s.392-1 1-1 1 .448 1 1c0 .575-.392 1-1 1z">
                                             </path>...
-                                        </svg></li>
-                                    <li style="color: #6f7373;">29</li>
-                                    <li></li>
-                                    <span style="color: black;">
+                                        </svg></span>
+                                    <span style="color: #6f7373;" class="span2 i">
+                                        29</span>
 
-                                        Next
+                                    <li class="next-wrap">
+                                        <span style="color: black;" class="i">
 
+                                            Next
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="12"
+                                                viewBox="0 0 8 12" focusable="false" aria-hidden="true"
+                                                style="fill: black; margin-left: 7px; margin-top: 17px;">
+                                                <path
+                                                    d="M2.126.35a1.28 1.28 0 00-1.761 0 1.165 1.165 0 000 1.695L4.478 6 .365 9.955a1.165 1.165 0 000 1.694 1.28 1.28 0 001.76 0L8 6 2.126.35z">
+                                                </path>
+                                            </svg>
 
-                                    </span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="12" viewBox="0 0 8 12"
-                                        focusable="false" aria-hidden="true" style="fill: black;">
-                                        <path
-                                            d="M2.126.35a1.28 1.28 0 00-1.761 0 1.165 1.165 0 000 1.695L4.478 6 .365 9.955a1.165 1.165 0 000 1.694 1.28 1.28 0 001.76 0L8 6 2.126.35z">
-                                        </path>
-                                    </svg>
+                                        </span>
+
+                                    </li>
+
 
 
 
@@ -1327,12 +1354,18 @@
 
                 </div>
                 <div class="help">
-                    <h2 style="margin-bottom: 8px;">Need help?</h2>
-                    <div>
-                        <span style="color: #007585;">Visit the help section</span>
-                        <span>or</span>
-                        <span style="color: #007585;">contact us</span>
+                    <div class="help-wrap">
+                        <div class="width-c">
+                            <h2 style="margin-bottom: 8px; line-height: 28px; font-size: 20px;">Need help?</h2>
+                            <div style="margin-bottom: 12px;">
+                                <span style="color: #007585;">Visit the help section</span>
+                                <span>or</span>
+                                <span style="color: #007585;">contact us</span>
+                            </div>
+                        </div>
+
                     </div>
+
 
                 </div>
                 <!-- <div class="ad">
@@ -1580,7 +1613,7 @@
 
             <div class="last">
 
-                <div class="hi">
+                <div class="hi-m">
                     <p>Sign in ›</p>
                 </div>
                 <div class="person">
@@ -1626,291 +1659,404 @@
                 </div>
             </div>
         </section>
+
+
+
+
+
+
+
+        <div class="main-m">
+            <div class="filters">
+                <div class="filters-wrap">
+                    <div class="prime-wrap">
+                        <div class="prime-m">
+                            <span class="prime-i-m"></span>
+                            <span class="toggle"></span>
+                        </div>
+                        <div class="samsung-m">
+                            <span>Samsung</span>
+                        </div>
+                    </div>
+                    <div class="filt">
+                        <div class="filt-wrap">
+                            <span>Filters</span>
+                            <span style="margin-left: 6px;">(2)</span>
+                            <span class="down-m"></span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="check">
+                <p>Check each product page for other buying options.</p>
+
+            </div>
+            <div class="card">
+                <div class="each-m">
+                    <div class="card-wrap">
+                        <div class="each-one-m">
+                            <div class="similar">
+                                <div class="similar-wrap">
+                                    <img alt="More like this" src="assets/similar.svg" class="s-image" height="24px"
+                                        width="24px">
+                                </div>
+                            </div>
+                            <div class="image-m">
+                                <div class="image-wrap">
+                                    <div class="best">
+                                        <span>Best seller</span>
+                                    </div>
+                                    <span class="span-image-m">
+                                        <div class="image1-m">
+                                            <img class="s-image"
+                                                src="https://m.media-amazon.com/images/I/81T3olLXpUL._AC_SX148_SY213_FMwebp_QL65_.jpg"
+                                                srcset="https://m.media-amazon.com/images/I/81T3olLXpUL._AC_SX148_SY213_FMwebp_QL65_.jpg 1x, https://m.media-amazon.com/images/I/81T3olLXpUL._AC_SX222_SY320_FMwebp_QL65_.jpg 1.5x, https://m.media-amazon.com/images/I/81T3olLXpUL._AC_SX296_SY426_FMwebp_QL65_.jpg 2x, https://m.media-amazon.com/images/I/81T3olLXpUL._AC_SX370_SY533_FMwebp_QL65_.jpg 2.5x, https://m.media-amazon.com/images/I/81T3olLXpUL._AC_SX444_SY639_FMwebp_QL65_.jpg 3x"
+                                                alt="Samsung Galaxy M05 (Mint Green, 4GB RAM, 64 GB Storage) | 50MP Dual Camera | Bigger 6.7&quot; HD+ Display | 5000mAh Battery | 2..."
+                                                aria-hidden="true" data-image-index="1" data-image-load=""
+                                                data-image-latency="s-product-image" data-image-source-density="1">
+                                        </div>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="details-m">
+                                <div class="details-wrap">
+                                    <div class="name-m">
+                                        <span>
+                                            Samsung Galaxy M05 (Mint Green, 4GB RAM, 64 GB Storage) | 50MP Dual Camera |
+                                            Bigger 6.7" HD+ Display | 5000mAh Battery | 25W Fast Charging | 2 Gen OS
+                                            Upgrade
+                                            &amp; 4 Year Security Update | Without Charger
+
+                                        </span>
+                                    </div>
+                                    <div class="rating-m">
+                                        <div class="stars-m">
+                                            <span>4.0</span>
+                                            <i class="star-4"></i>
+                                            <p>(4.4K)</p>
+                                        </div>
+                                        <p class="brag-m">5K+ bought in past month</p>
+                                    </div>
+                                    <div class="price-m">
+                                        <div class="price-flex-m">
+                                            <span class="price-i-m">₹</span>
+
+                                            <h2>6,249</h2>
+
+                                            <p>M.R.P: </p>
+                                            <p class="cross-m"> ₹9,999</p>
+                                            <span>(38% off)</span>
+                                        </div>
+                                        <p class="up-m">Save extra with No Cost EMI</p>
+                                    </div>
+                                    <div class="prime-m">
+                                        <span class="prime-icon-m"></span>
+
+                                        <p style="margin-bottom: 3.5px;">
+                                            <span class="small">FREE delivery </span>
+                                            <span class="big">Sun, 6 Jul </span>
+                                        </p>
+                                        <p>
+                                            <span class="small">Or fastest delivery </span>
+                                            <span class="big">Tomorrow, 5 Jul </span>
+                                        </p>
+
+                                    </div>
+                                    <div class="add-m">
+                                        <button>Add to cart</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="card two">
+
+                <div class="each-m">
+                    <div class="card-wrap">
+                        <div class="each-one-m">
+
+                            <div class="similar">
+                                <div class="similar-wrap">
+                                    <img alt="More like this" src="assets/similar.svg" class="s-image" height="24px"
+                                        width="24px">
+                                </div>
+                            </div>
+                            <div class="image-m">
+                                <div class="image-wrap">
+
+                                    <span class="span-image-m">
+                                        <div class="image1-m">
+                                            <img class="s-image" src="./Amazon.in_files/512UVkoMMEL._AC_UL320_.jpg"
+                                                srcset="https://m.media-amazon.com/images/I/512UVkoMMEL._AC_UL320_.jpg 1x, https://m.media-amazon.com/images/I/512UVkoMMEL._AC_UL480_FMwebp_QL65_.jpg 1.5x, https://m.media-amazon.com/images/I/512UVkoMMEL._AC_UL640_FMwebp_QL65_.jpg 2x, https://m.media-amazon.com/images/I/512UVkoMMEL._AC_UL800_FMwebp_QL65_.jpg 2.5x, https://m.media-amazon.com/images/I/512UVkoMMEL._AC_UL960_FMwebp_QL65_.jpg 3x"
+                                                alt="Samsung Original 25W Type-C Travel Adaptor Without Cable, White"
+                                                aria-hidden="true" data-image-index="2" data-image-load=""
+                                                data-image-latency="s-product-image" data-image-source-density="1">
+                                        </div>
+                                    </span>
+                                </div>
+
+
+
+                            </div>
+                            <div class="details-m">
+                                <div class="details-wrap">
+                                    <div class="name-m">
+                                        <span>
+                                            Samsung Original 25W Type-C Travel Adaptor Without Cable, White
+
+                                        </span>
+                                    </div>
+                                    <div class="rating-m">
+                                        <div class="stars-m">
+                                            <span class="star-4"></span>
+                                            <p>39,097</p>
+                                        </div>
+                                        <p class="brag-m">10K+ bought in past month</p>
+                                    </div>
+                                    <div class="price-m">
+                                        <div class="price-flex-m">
+                                            <span class="price-i-m">₹</span>
+
+                                            <h2>999</h2>
+                                            <p>M.R.P: </p>
+                                            <p class="cross-m"> ₹1,699</p>
+                                            <span>(41% off)</span>
+                                        </div>
+                                        <!-- <p class="up-m">Up to 5% back with Amazon Pay ICICI…</p> -->
+                                    </div>
+                                    <div class="prime-m">
+                                        <span class="prime-icon-m"></span>
+                                        <div class="del-class">
+                                            <p>
+                                                <span class="small">FREE delivery </span>
+                                                <span class="big">Mon, 30 Jun </span>
+                                            </p>
+                                            <p>
+                                                <span class="snall">Or fastest delivery </span>
+                                                <span class="big">Today by 10 pm </span>
+                                            </p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="add-m" style="margin-bottom: 3px;">
+                                        <button>Add to cart</button>
+                                    </div>
+                                    <div class="more">
+                                        <p>More Buying Choices</p>
+                                        <div style="display: flex;">
+                                            <span>₹979</span>
+                                            <span style="color: #2162a1; margin-left: 5.5px;">(7 new offers)</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="card three">
+                <div class="each-m">
+                    <div class="card-wrap">
+                        <div class="each-one-m">
+                            <div class="similar">
+                                <div class="similar-wrap">
+                                    <img alt="More like this" src="assets/similar.svg" class="s-image" height="24px"
+                                        width="24px">
+                                </div>
+                            </div>
+                            <div class="image-m">
+                                <span class="span-image-m">
+                                    <div class="image1-m">
+                                        <img class="s-image" src="./Amazon.in_files/81nt-RGKpyL._AC_UL320_.jpg"
+                                            srcset="https://m.media-amazon.com/images/I/81nt-RGKpyL._AC_UL320_.jpg 1x, https://m.media-amazon.com/images/I/81nt-RGKpyL._AC_UL480_FMwebp_QL65_.jpg 1.5x, https://m.media-amazon.com/images/I/81nt-RGKpyL._AC_UL640_FMwebp_QL65_.jpg 2x, https://m.media-amazon.com/images/I/81nt-RGKpyL._AC_UL800_FMwebp_QL65_.jpg 2.5x, https://m.media-amazon.com/images/I/81nt-RGKpyL._AC_UL960_FMwebp_QL65_.jpg 3x"
+                                            alt="Samsung Galaxy M35 5G (Daybreak Blue,6GB RAM,128GB Storage)| Corning Gorilla Glass Victus+| AnTuTu Score 595K+ | Vapour Co..."
+                                            aria-hidden="true" data-image-index="3" data-image-load=""
+                                            data-image-latency="s-product-image" data-image-source-density="1">
+                                    </div>
+                                </span>
+
+
+                            </div>
+                            <div class="details-m">
+                                <div class="details-wrap">
+                                    <div class="name-m">
+                                        <span>
+                                            Samsung Galaxy M35 5G (Daybreak Blue,6GB RAM,128GB Storage)| Corning Gorilla
+                                            Glass Victus+| AnTuTu Score 595K+ | Vapour Cooling Chamber | 6000mAh Battery
+                                            |
+                                            120Hz Super AMOLED Display| Without Charger
+
+                                        </span>
+                                    </div>
+                                    <div class="rating-m">
+                                        <div class="stars-m">
+                                            <span class="star-4"></span>
+                                            <i class="down-arrow"></i>
+                                            <p>10,954</p>
+                                        </div>
+                                        <p class="brag-m">5K+ bought in past month</p>
+                                    </div>
+                                    <div class="price-m">
+                                        <div class="price-flex-m">
+                                            <span class="price-i-m">₹</span>
+
+                                            <h2>13,999</h2>
+                                            <p>M.R.P: </p>
+                                            <p class="cross">₹24,499</p>
+                                            <span>(43%</span>
+                                            <span style="margin-left: 0; margin-bottom: 2px; ">off)</span>
+                                        </div>
+                                        <div style="display: flex;">
+                                            <span
+                                                style="background-color: #7fda69; padding: 1px 6px; margin-right: 3.5px;">Save
+                                                ₹500 </span>
+                                            <span style="line-height: 20px;"> with coupon</span>
+                                        </div>
+                                        <!-- <p class="up">Up to 5% back with Amazon Pay ICICI…</p> -->
+                                    </div>
+                                    <div class="prime">
+                                        <span class="prime-icon"></span>
+                                        <div class="del-class">
+                                            <p>
+                                                <span class="small">FREE delivery </span>
+                                                <span class="big">Mon, 30 Jun </span>
+                                            </p>
+                                            <p>
+                                                <span class="snall">Or fastest delivery </span>
+                                                <span class="big">Tomorrow, 29 Jun </span>
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                    <div class="more">
+                                        <p>Service: Installation</p>
+                                    </div>
+                                    <div class="add">
+                                        <button>Add to cart</button>
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="footer-m">
+            <a class="go-top">
+                <i class="go-top-icon"></i>
+                <p>
+                    TOP OF PAGE
+                </p>
+            </a>
+            <ul class="foot-m">
+                <li>
+                    <a href="">
+                        Your Amazon.in
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Amazon Pay
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Your Lists
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Your Recently Viewed Items
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Recalls and Product Safety Alerts
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Customer Service
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Amazon.in
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Your Orders
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Amazon App Download
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Your Account
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Returns
+                    </a>
+                </li>
+                <li>
+                    <a href="Sell"></a>
+                </li>
+
+            </ul>
+            <div class="language-m">
+                <div class="lang-m">
+                    <div class="glob-m"></div>
+                    <span>English</span>
+
+                </div>
+
+            </div>
+            <div class="already">
+                Already a customer? Sign in
+            </div>
+            <ul class="services-m">
+                <li>Conditions of Use</li>
+                <li>Privacy Notice</li>
+                <li>Interest-Based Ads</li>
+            </ul>
+            <div class="copy">
+                © 1996-2025, Amazon.com, Inc. and its affiliates
+            </div>
+            <div class="spacer-m">
+
+            </div>
+        </div>
     </div>
 
-    <div class="main-m">
-        <div class="filters">
-            <div class="filters-wrap">
-                <div class="prime-wrap">
-                    <div class="prime-m">
-                        <span class="prime-i-m"></span>
-                        <span class="toggle"></span>
-                    </div>
-                    <div class="samsung-m">
-                        <span>Samsung</span>
-                    </div>
-                </div>
-                <div class="filt">
-                    <div class="filt-wrap">
-                        <span>Filters</span>
-                        <span style="margin-left: 6px;">(2)</span>
-                        <span class="down-m"></span>
-                    </div>
 
-                </div>
-
-            </div>
-
-        </div>
-        <div class="check">
-            <p>Check each product page for other buying options.</p>
-
-        </div>
-        <div class="card">
-            <div class="each-m">
-                <div class="each-one-m">
-                    <div class="similar">
-                        <div class="similar-wrap">
-                           <img alt="More like this" src="assets/similar.svg" class="s-image" height="24px" width="24px" >
-                        </div>
-                    </div>
-                    <div class="image-m">
-                        <div class="image-wrap">
-                            <div class="best">
-                                <span>Best seller</span>
-                            </div>
-                            <span class="span-image-m">
-                                <div class="image1-m">
-                                    <img class="s-image"
-                                        src="https://m.media-amazon.com/images/I/81T3olLXpUL._AC_SX148_SY213_FMwebp_QL65_.jpg"
-                                        srcset="https://m.media-amazon.com/images/I/81T3olLXpUL._AC_SX148_SY213_FMwebp_QL65_.jpg 1x, https://m.media-amazon.com/images/I/81T3olLXpUL._AC_SX222_SY320_FMwebp_QL65_.jpg 1.5x, https://m.media-amazon.com/images/I/81T3olLXpUL._AC_SX296_SY426_FMwebp_QL65_.jpg 2x, https://m.media-amazon.com/images/I/81T3olLXpUL._AC_SX370_SY533_FMwebp_QL65_.jpg 2.5x, https://m.media-amazon.com/images/I/81T3olLXpUL._AC_SX444_SY639_FMwebp_QL65_.jpg 3x"
-                                        alt="Samsung Galaxy M05 (Mint Green, 4GB RAM, 64 GB Storage) | 50MP Dual Camera | Bigger 6.7&quot; HD+ Display | 5000mAh Battery | 2..."
-                                        aria-hidden="true" data-image-index="1" data-image-load=""
-                                        data-image-latency="s-product-image" data-image-source-density="1">
-                                </div>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="details-m">
-                        <div class="details-wrap">
-                            <div class="name-m">
-                                <span>
-                                    Samsung Galaxy M05 (Mint Green, 4GB RAM, 64 GB Storage) | 50MP Dual Camera |
-                                    Bigger 6.7" HD+ Display | 5000mAh Battery | 25W Fast Charging | 2 Gen OS
-                                    Upgrade
-                                    &amp; 4 Year Security Update | Without Charger
-
-                                </span>
-                            </div>
-                            <div class="rating-m">
-                                <div class="stars-m">
-                                    <span>4.0</span>
-                                    <i class="star-4"></i>
-                                    <p>(4.4K)</p>
-                                </div>
-                                <p class="brag-m">5K+ bought in past month</p>
-                            </div>
-                            <div class="price-m">
-                                <div class="price-flex-m">
-                                    <span class="price-i-m">₹</span>
-
-                                    <h2>6,249</h2>
-
-                                    <p>M.R.P: </p>
-                                    <p class="cross-m"> ₹9,999</p>
-                                    <span>(38% off)</span>
-                                </div>
-                                <p class="up-m">Save extra with No Cost EMI</p>
-                            </div>
-                            <div class="prime-m">
-                                <span class="prime-icon-m"></span>
-
-                                <p style="margin-bottom: 3.5px;">
-                                    <span class="small">FREE delivery </span>
-                                    <span class="big">Sun, 6 Jul </span>
-                                </p>
-                                <p>
-                                    <span class="small">Or fastest delivery </span>
-                                    <span class="big">Tomorrow, 5 Jul </span>
-                                </p>
-
-                            </div>
-                            <div class="add-m">
-                                <button>Add to cart</button>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
-
-
-        <div class="card two">
-
-            <div class="each-m">
-                <div class="each-one-m">
-                    <div class="similar">
-                        <div class="similar-wrap">
-                           <img alt="More like this" src="assets/similar.svg" class="s-image" height="24px" width="24px" >
-                        </div>
-                    </div>
-                    <div class="image-m">
-                        <div class="image-wrap">
-
-                            <span class="span-image-m">
-                                <div class="image1-m">
-                                    <img class="s-image" src="./Amazon.in_files/512UVkoMMEL._AC_UL320_.jpg"
-                                        srcset="https://m.media-amazon.com/images/I/512UVkoMMEL._AC_UL320_.jpg 1x, https://m.media-amazon.com/images/I/512UVkoMMEL._AC_UL480_FMwebp_QL65_.jpg 1.5x, https://m.media-amazon.com/images/I/512UVkoMMEL._AC_UL640_FMwebp_QL65_.jpg 2x, https://m.media-amazon.com/images/I/512UVkoMMEL._AC_UL800_FMwebp_QL65_.jpg 2.5x, https://m.media-amazon.com/images/I/512UVkoMMEL._AC_UL960_FMwebp_QL65_.jpg 3x"
-                                        alt="Samsung Original 25W Type-C Travel Adaptor Without Cable, White"
-                                        aria-hidden="true" data-image-index="2" data-image-load=""
-                                        data-image-latency="s-product-image" data-image-source-density="1">
-                                </div>
-                            </span>
-                        </div>
-
-
-
-                    </div>
-                    <div class="details-m">
-                        <div class="details-wrap">
-                            <div class="name-m">
-                                <span>
-                                    Samsung Original 25W Type-C Travel Adaptor Without Cable, White
-
-                                </span>
-                            </div>
-                            <div class="rating-m">
-                                <div class="stars-m">
-                                    <span class="star-4"></span>
-                                    <p>39,097</p>
-                                </div>
-                                <p class="brag-m">10K+ bought in past month</p>
-                            </div>
-                            <div class="price-m">
-                                <div class="price-flex-m">
-                                    <span class="price-i-m">₹</span>
-
-                                    <h2>999</h2>
-                                    <p>M.R.P: </p>
-                                    <p class="cross-m"> ₹1,699</p>
-                                    <span>(41% off)</span>
-                                </div>
-                                <!-- <p class="up-m">Up to 5% back with Amazon Pay ICICI…</p> -->
-                            </div>
-                            <div class="prime-m">
-                                <span class="prime-icon-m"></span>
-                                <div class="del-class">
-                                    <p>
-                                        <span class="small">FREE delivery </span>
-                                        <span class="big">Mon, 30 Jun </span>
-                                    </p>
-                                    <p>
-                                        <span class="snall">Or fastest delivery </span>
-                                        <span class="big">Today by 10 pm </span>
-                                    </p>
-                                </div>
-
-                            </div>
-
-                            <div class="add-m" style="margin-bottom: 3px;">
-                                <button>Add to cart</button>
-                            </div>
-                            <div class="more">
-                                <p>More Buying Choices</p>
-                                <div style="display: flex;">
-                                    <span>₹979</span>
-                                    <span style="color: #2162a1; margin-left: 5.5px;">(7 new offers)</span>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-
-        <div class="card three">
-            <div class="each-m">
-                <div class="each-one-m">
-                      <div class="similar">
-                        <div class="similar-wrap">
-                           <img alt="More like this" src="assets/similar.svg" class="s-image" height="24px" width="24px" >
-                        </div>
-                    </div>
-                    <div class="image-m">
-                        <span class="span-image-m">
-                            <div class="image1-m">
-                                <img class="s-image" src="./Amazon.in_files/81nt-RGKpyL._AC_UL320_.jpg"
-                                    srcset="https://m.media-amazon.com/images/I/81nt-RGKpyL._AC_UL320_.jpg 1x, https://m.media-amazon.com/images/I/81nt-RGKpyL._AC_UL480_FMwebp_QL65_.jpg 1.5x, https://m.media-amazon.com/images/I/81nt-RGKpyL._AC_UL640_FMwebp_QL65_.jpg 2x, https://m.media-amazon.com/images/I/81nt-RGKpyL._AC_UL800_FMwebp_QL65_.jpg 2.5x, https://m.media-amazon.com/images/I/81nt-RGKpyL._AC_UL960_FMwebp_QL65_.jpg 3x"
-                                    alt="Samsung Galaxy M35 5G (Daybreak Blue,6GB RAM,128GB Storage)| Corning Gorilla Glass Victus+| AnTuTu Score 595K+ | Vapour Co..."
-                                    aria-hidden="true" data-image-index="3" data-image-load=""
-                                    data-image-latency="s-product-image" data-image-source-density="1">
-                            </div>
-                        </span>
-
-
-                    </div>
-                    <div class="details-m">
-                        <div class="details-wrap">
-                            <div class="name-m">
-                                <span>
-                                    Samsung Galaxy M35 5G (Daybreak Blue,6GB RAM,128GB Storage)| Corning Gorilla
-                                    Glass Victus+| AnTuTu Score 595K+ | Vapour Cooling Chamber | 6000mAh Battery
-                                    |
-                                    120Hz Super AMOLED Display| Without Charger
-
-                                </span>
-                            </div>
-                            <div class="rating-m">
-                                <div class="stars-m">
-                                    <span class="star-4"></span>
-                                    <i class="down-arrow"></i>
-                                    <p>10,954</p>
-                                </div>
-                                <p class="brag-m">5K+ bought in past month</p>
-                            </div>
-                            <div class="price-m">
-                                <div class="price-flex-m">
-                                    <span class="price-i-m">₹</span>
-
-                                    <h2>13,999</h2>
-                                    <p>M.R.P: </p>
-                                    <p class="cross">₹24,499</p>
-                                    <span>(43%</span>
-                                    <span style="margin-left: 0; margin-bottom: 2px; ">off)</span>
-                                </div>
-                                <div style="display: flex;">
-                                    <span style="background-color: #7fda69; padding: 1px 6px; margin-right: 3.5px;">Save
-                                        ₹500 </span>
-                                    <span style="line-height: 20px;"> with coupon</span>
-                                </div>
-                                <!-- <p class="up">Up to 5% back with Amazon Pay ICICI…</p> -->
-                            </div>
-                            <div class="prime">
-                                <span class="prime-icon"></span>
-                                <div class="del-class">
-                                    <p>
-                                        <span class="small">FREE delivery </span>
-                                        <span class="big">Mon, 30 Jun </span>
-                                    </p>
-                                    <p>
-                                        <span class="snall">Or fastest delivery </span>
-                                        <span class="big">Tomorrow, 29 Jun </span>
-                                    </p>
-                                </div>
-
-                            </div>
-                            <div class="more">
-                                <p>Service: Installation</p>
-                            </div>
-                            <div class="add">
-                                <button>Add to cart</button>
-                            </div>
-
-                        </div>
-
-
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
 
 
 
