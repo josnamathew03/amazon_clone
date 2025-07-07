@@ -691,6 +691,9 @@
         
         /* position: relative; */
     }
+    .hey{
+        margin-top: -1px;
+    }
 
     .span-image-m::after {
         height: 1pxx;
@@ -757,8 +760,10 @@
         display: -webkit-box;
         -webkit-box-orient: vertical;
         /* margin-left: .5px; */
-        width: 198.32px;
+        /* width: 198.32px; */
+        width: 99%;
     }
+  
 
     /* .name-m span{
         letter-spacing: .05px;
@@ -772,11 +777,12 @@
   
 
     .cellular .cellular-span {
+            font-family: 'button';
         font-size: 10px;
         line-height: 16px;
         padding: 2px 4px 3px;
         font-weight: 500;
-        letter-spacing: .09px;
+        /* letter-spacing: .09px; */
         /* font-family: ''; */
         background-color: #f0f2f2;
         vertical-align: top;
@@ -885,7 +891,7 @@
         align-self: flex-end;
         margin-bottom: 13px;
         margin-left: 5px;
-        transform: translateY(1.3px);
+        transform: translateY(1.5px);
     }
 
     .price-flex-m .cross-m {
@@ -962,7 +968,7 @@
         /* width: 90px;
     height: 35.5px; */
         margin-top: 12px;
-        width: 98%;
+        width: 98.2%;
 
     }
 
@@ -987,7 +993,7 @@
         position: relative;
         width: 100%;
         min-width: 200px;
-        font-size: 12px;
+        font-size: 12px;                                                
         line-height: 1em;
     }
 
@@ -1000,6 +1006,7 @@
     }
 
     .go-top .go-top-icon {
+        margin-bottom: .5px;
         border-style: solid;
         border-width: 5px;
         border-color: transparent;
@@ -1021,7 +1028,7 @@
     }
 
     ul.foot-m {
-        padding: 0 20px 25px 20px;
+        padding: 0 20px 24.5px 20px;
         background-color: #232F3E;
         overflow: hidden;
 
@@ -1126,7 +1133,7 @@
     .services-m li {
         display: inline-block;
         color: #ccc;
-        padding: 0 8px;
+        padding: 0 8.2px;
         line-height: 15px;
 
 
@@ -1137,6 +1144,7 @@
         text-align: center;
         font-size: 11px;
         line-height: 12px;
+        transform: translateY(.5px);
     }
 
     .spacer-m {
