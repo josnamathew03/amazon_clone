@@ -644,7 +644,7 @@
 
 .rec .right-box {
     /* float: right; */
-    margin-top: 3px;
+    margin-top: 3.8px;
     padding-left: 40px;
     padding-right: 10px;
     box-sizing: border-box;
@@ -654,7 +654,7 @@
 
 .right-box .arrow-i {
     font-size: 11px;
-    margin-top: -1px;
+    margin-top: -2px;
     padding-right: 8px;
     display: inline-block;
     font-weight: 700;
