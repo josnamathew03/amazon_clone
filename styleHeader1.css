@@ -34,7 +34,7 @@
 
 @font-face {
     font-family: 'button';
-    src: url(assets/font/pDxWAF1pBB0dzGB\ \(2\).woff2.url);
+    src: url(assets/font/VjTR4RqBzY0mUYx.woff2);
     /* src: url(assets/font/bold.woff2); */
 
 }
@@ -43,6 +43,11 @@
     font-family: 'italics';
     src: url(assets/font/WOnTLzkiaEccV7F.woff2);
     /* src: url(assets/font/bold.woff2); */
+
+}
+@font-face {
+    font-family: 'small';
+    src: url(assets/font/Dv1WQ5DdeMS5qP7.woff2);
 
 }
 
@@ -479,7 +484,7 @@ header {
     width: 100%;
     height: 14px;
     font-size: 12px;
-    margin-top: 9px;
+    margin-top: 8px;
     display: flex;
     align-items: center;
 }

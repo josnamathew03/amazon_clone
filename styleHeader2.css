@@ -63,10 +63,10 @@
     height: 0;
     font-size: 0;
     line-height: 0;
-    margin: 0 0 2px 0;
+    margin: 0 0 1px 0;
     vertical-align: middle;
     background-color:rgba(0, 0, 0, 0);
-    transform: translateX(-3px);
+    transform: translateX(-3.2px);
 
 }
 .sub .drop-div{

@@ -38,7 +38,7 @@ main .bar .side-bar {
     /* margin-bottom: 64px; */
     margin-bottom: 48px;
 
-    
+
     height: calc(100% - 16px);
     box-sizing: border-box;
     padding-right: 12px;
@@ -70,6 +70,7 @@ main .bar .side-bar {
     vertical-align: 1px;
     margin-right: -1px;
     font-size: 11px;
+    /* transform: translateY(1px); */
 }
 
 .cat .mobiles {
@@ -87,7 +88,7 @@ main .bar .side-bar {
     color: black !important;
     font-family: 'bold';
     font-size: 14px !important;
-    line-height:16px !important;
+    line-height: 16px !important;
     align-self: flex-end;
 
 }
@@ -114,14 +115,14 @@ main .bar .side-bar {
     margin: 0;
 }
 
- ul li label {
+ul li label {
     display: flex;
     align-items: flex-end;
     gap: 5px;
     margin-top: 4px;
 }
 
- ul li input[type="checkbox" i] {
+ul li input[type="checkbox" i] {
     width: 15.9px;
     height: 15.9px;
     position: relative;
@@ -137,16 +138,15 @@ main .bar .side-bar {
 
 
 }
-.brands  ul li input[type="checkbox" i]{
 
-}
+.brands ul li input[type="checkbox" i] {}
 
- ul li input[type="checkbox"]:checked {
+ul li input[type="checkbox"]:checked {
 
     background-color: #2162a1;
 }
 
- ul li input[type="checkbox"]:checked::after {
+ul li input[type="checkbox"]:checked::after {
     content: "";
     position: absolute;
     top: 1px;
@@ -168,6 +168,7 @@ main .bar .side-bar {
 
 .see i {
     font-size: 12px;
+    transform: translate(-1px, -.2px);
 }
 
 .see span {
@@ -243,9 +244,10 @@ main .bar .side-bar {
     align-content: center;
     margin-bottom: 4px;
     position: relative;
-       /* margin: 10px 0; */
+    /* margin: 10px 0; */
 }
-.price-tag .range{
+
+.price-tag .range {
     flex: 1;
     padding: 4px 0;
     margin: 18px 0;
@@ -260,7 +262,7 @@ main .bar .side-bar {
     vertical-align: middle;
     color: #007185;
     vertical-align: middle;
- 
+
     outline: 0;
     margin: 0px;
 
@@ -285,10 +287,10 @@ main .bar .side-bar {
 .price-tag .range-l {
     z-index: 0;
     background: linear-gradient(to right, rgb(187, 191, 191) 0%, rgb(187, 191, 191) 0%, rgb(0, 113, 133) 0%, rgb(0, 113, 133) 100%, rgb(187, 191, 191) 100%, rgb(187, 191, 191) 100%);
-color: #007185;
-  
+    color: #007185;
+
     font-size: 100%;
-      width: 100%;
+    width: 100%;
     height: 4px;
     outline: 0;
     appearance: none;
@@ -300,58 +302,61 @@ color: #007185;
 }
 
 .price-tag input[type="range"]::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 28px;
-  height: 28px;
-  background-color: white; 
-  border-radius: 50%;
-  border: none;
-  cursor: pointer;
-  position: relative;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 28px;
+    height: 28px;
+    background-color: white;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    position: relative;
 
-  box-shadow:
-    inset 0 0 0 8px #007185,   
-    0 0 5px rgb(30, 30, 30); 
+    box-shadow:
+        inset 0 0 0 8px #007185,
+        0 0 5px rgb(30, 30, 30);
 }
 
 
-.price-tag .button-span{
+.price-tag .button-span {
     margin-left: 7.9px;
     line-height: 16px;
     word-break: break-word;
 }
-.price-tag button{
+
+.price-tag button {
     padding: 7px 12.5px;
     border-radius: 100px;
     background-color: #fff;
-    border:1px solid #868484;
+    border: 1px solid #868484;
 
 }
 
-.price ul .deals{
+.price ul .deals {
     margin-bottom: 8px;
     line-height: 15px;
     font-size: 14px;
     font-family: 'bold';
 }
+
 /* .price .dis{
     margin-bottom: 5px;
 } */
-.same p{
+.same p {
     margin-bottom: 8px;
 
     font-size: 14px;
-   
+
     font-family: 'bold';
 
-}   
+}
+
 /* .pay input{
     width: 16px;
     height: 16px;
 } */
 
-.phone{
+.phone {
     margin-bottom: 16px;
     height: calc(100% - 16px);
     padding: 0 4px;
@@ -359,16 +364,21 @@ color: #007185;
     width: 168px;
     height: 600px;
 }
- .phone .image{
+
+.phone .image {
     border: .1px solid #c6c6c6;
     border-radius: 7px;
     padding: 10px 0 0 13.2px;
+    border-bottom-right-radius: unset;
+    border-bottom: none;
+    border-bottom-left-radius: unset;
+
 
 
 }
 
 
-                                                               
+
 .side-bar .ring-light {
     /* margin-bottom: 16px; */
     margin-bottom: 64px;
@@ -377,7 +387,8 @@ color: #007185;
     padding-right: 12px;
     box-sizing: border-box;
 }
-.ring-light .grid{
+
+.ring-light .grid {
     display: grid;
     height: 100%;
     width: 100%;
@@ -390,7 +401,8 @@ color: #007185;
     grid-template-rows: 60% 40%;
     grid-template-columns: 100%; */
 }
-.ring-light img{
+
+.ring-light img {
     width: 100%;
     height: 100%;
     object-fit: scale-down;
@@ -400,7 +412,8 @@ color: #007185;
     padding: 2px;
     /* grid-area: "image"; */
 }
-.ring-light p{
+
+.ring-light p {
     width: 100%;
     height: 100%;
     /* grid-area: "ring-details"; */
