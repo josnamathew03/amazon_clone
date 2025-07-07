@@ -340,7 +340,7 @@
 
 
 .prev-next {
-    margin-top: 8.5px;
+    margin-top: 9px;
     padding: 0 4px;
     grid-column: 1/-1;
     box-sizing: border-box;
@@ -396,7 +396,7 @@
     border-bottom-left-radius: 11px;
     min-width: 70px;
     padding: 0 13px;
-    transform: translateY(-2px);
+    transform: translateY(-1px);
     /* line-height: 46px;
     padding: 0 12px; */
     border-top: 1px solid #d5d9d9; 
