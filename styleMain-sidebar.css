@@ -70,6 +70,7 @@ main .bar .side-bar {
     vertical-align: 1px;
     margin-right: -1px;
     font-size: 11px;
+    /* transform: translateY(1px); */
 }
 
 .cat .mobiles {
@@ -363,6 +364,10 @@ color: #007185;
     border: .1px solid #c6c6c6;
     border-radius: 7px;
     padding: 10px 0 0 13.2px;
+        border-bottom-right-radius: unset;
+    border-bottom: none;
+        border-bottom-left-radius: unset;
+
 
 
 }
