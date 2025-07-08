@@ -1,0 +1,311 @@
+footer {
+    /* display: none; */
+    min-width: 1000px;
+    background-color: #232f3e;
+    position: relative;
+    margin: 30px 0 0px 0;
+    /* padding: 0 0 7px 0; */
+    box-sizing: border-box;
+}
+footer *{
+    box-sizing: border-box;
+}
+
+footer .to-top {
+    margin-bottom: 40px;
+    background-color: #37475a;
+}
+
+.to-top a {
+    color: #fff;
+    display: block;
+    text-align: center;
+    padding: 15px 0;
+    line-height: 19px;
+    font-size: 13px;
+}
+
+/* ---------------------------------------------------------------- */
+
+.footer-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-self: center;
+    box-sizing: border-box;
+    /* flex-wrap: nowrap; */
+
+}
+
+.gap {
+    padding: 0 10px;
+    box-sizing: border-box;
+    width: 10.5%;
+
+}
+
+.footer-section {
+    width: auto;
+
+    padding: 0 10px;
+    line-height: 120%;
+}
+
+.footer-section .footer-heading {
+    color: white;
+    display: block;
+    font-size: 16px;
+    font-family: 'bold';
+    /* line-height: 16.8px; */
+    margin: 6px 0 13.9px 0;
+}
+
+.footer-section li {
+    margin: 0 0 10px;
+    /* white-space: nowrap; */
+    color: #dddddd;
+}
+
+/* ----------------------------------------------------- */
+
+.bottom-gap {
+    margin-top: 40px;
+    border-top: 1px solid #3a4553;
+    box-sizing: border-box;
+}
+
+/* ------------------------------------------------------- */
+
+.language {
+    font-size: 12px;
+    text-align: center;
+    max-width: 1000px;
+    margin: 10px auto ;
+    color: #ddd;
+    line-height: 18px;
+    box-sizing: border-box;
+    /* display: flex; */
+}
+
+.last-icon-span {
+    padding: 0 .6em;
+    display: inline-block;
+    box-sizing: border-box;
+    /* transform: translateY(5px); */
+
+
+}
+.iconn{
+     margin: 30px auto 6px;
+    text-align: center;
+    max-width: 1000px;
+    box-sizing: border-box;
+
+
+}
+
+.language .last-icon {
+    /* margin: 30px auto 11px;
+    text-align: center;
+    max-width: 1000px; */
+    box-sizing: border-box;
+    
+
+    background-position: -10px -90px;
+    width: 76px;
+    height: 27px;
+    line-height: 0;
+    /* margin: 0 auto; */
+    background-image: url(https://m.media-amazon.com/images/G/31/gno/sprites/nav-sprite-global-1x-reorg-privacy._CB546381437_.png);
+    background-repeat: repeat-x;
+
+
+}
+
+.language .lang2 {
+    margin: 18px auto 0;
+    margin-left: 70px;
+    vertical-align: top;
+    padding: 0 .6em;
+    display: inline-block;
+    box-sizing: border-box;
+
+
+}
+
+.lang2 .lang-drop {
+    display: inline-block;
+    border: 1px solid #848688;
+    border-radius: 3px;
+    padding: 6px 18px 5.8px 8px;
+    font-size: 13px;
+    margin-right: 4px;
+    box-sizing: border-box;
+}
+
+.lang-drop a {
+    padding: 0 .6em;
+    box-sizing: border-box;
+
+}
+
+.lang-drop .globe {
+    width: 15px;
+    height: 15px;
+    top: 2px;
+    left: 0;
+    position: relative;
+    display: inline-block;
+    background-image: url(https://m.media-amazon.com/images/S/sash/vqXWsNPg$9994Pg.png);
+    background-size: 194px 295px;
+    box-sizing: border-box;
+    background-position: -77px -24px;
+
+}
+
+.eng {
+    color: #ccc;
+        padding: 0 .6em 0 4.8px;
+    box-sizing: border-box;
+
+    box-sizing: border-box;
+    display: inline-block;
+
+}
+
+.lang2 .arrows {
+    background-image: url(https://m.media-amazon.com/images/S/sash/vqXWsNPg$9994Pg.png);
+    background-size: 194px 295px;
+    background: url(https://m.media-amazon.com/images/S/sash/MAbi1rCjQI9H2y0.png);
+    width: 12px;
+    height: 16px;
+    background-position: -79px -79px;
+    position: relative;
+    left: 9px;
+    border: none;
+    margin: 0;
+    font-size: 100%;
+    vertical-align: middle;
+    padding: 1px 6px;
+    box-sizing: border-box;
+
+}
+
+.country {
+    display: inline-block !important;
+    border: 1px solid #848688;
+    border-radius: 3px;
+    padding: 6px 18px 5.8px 8px;
+    font-size: 13px;
+    margin-right: 4px;
+    box-sizing: border-box;
+}
+
+.country .flag {
+    background-image: url(https://m.media-amazon.com/images/S/sash/vqXWsNPg$9994Pg.png);
+    background-size: 194px 295px;
+    width: 18px;
+    position: relative;
+    height: 12px;
+    background-position: -18px -36px;
+    top: 1px;
+    margin: 3px 0 0;
+    padding: 0 .6em;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.country span{
+    display: inline-block;
+    padding: 0 .6em 0 4.8px;
+}
+
+/* ----------------------------------------------------------------- */
+
+.services-main {
+    font-size: 12px;
+    background-color: #131a22;
+    padding: 30px 0;
+    margin: 30px 0 0;
+    color: #ddd;
+    text-align: center;
+    line-height: 18px;
+    box-sizing: border-box;
+
+}
+
+.services-main .services {
+    max-width: 1000px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.services ul{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    box-sizing: border-box;
+
+    margin-bottom: 14.9px;
+    margin-left: 0;
+}
+.services .two{
+    margin-bottom: 0;
+}
+.services .spacer{
+    width: 4%;
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+.services li{
+    width: 15%;
+    padding: 0 .75em;
+    vertical-align: top;
+    text-align: left;
+    line-height: 115%;
+    display: inline;
+    word-wrap: break-word;
+    box-sizing: border-box;
+
+}
+.services h5{
+    line-height: 14px;
+        font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    font-family: 'regular';
+}
+.services li span{
+    color: #999;
+    display: inline-block;
+    line-height: 110%;
+}
+
+/* ----------------------------------------------------------------------- */
+
+.contact{
+    font-size: 12px;
+    background-color: #131a22;
+    max-width: 100%;
+    line-height: 18px;
+    margin:  0;
+    padding: 10px 0 30px;
+    text-align: center;
+    color: #ddd;
+}
+.contact ul{   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+        transform: translateY(.5px);
+    margin: 0 0 0 18px;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contact ul li{
+ padding: 0 .6em;
+}
+.contact span{
+ padding: 0 .6em;
+
+}
