@@ -1,4 +1,4 @@
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 767px) {
 
 
     .desktop {
@@ -13,7 +13,7 @@
     .first {
         background: #131921;
         height: 48px;
-        width: 100%;
+        width: 100%;  
         flex-wrap: nowrap;
         display: flex;
         border-bottom: 1px solid #232f3e;
@@ -320,7 +320,7 @@
     .location-m .loc-m {
         background-position: -75px -340px;
         width: 20px;
-        height: 20px;
+        height: 20px; 
         float: left;
         margin-right: 5px;
         background-image: url("https://m.media-amazon.com/images/G/31/gno/sprites/new-nav-sprite-global-2x_blueheaven-privacy._CB541718031_.png");
