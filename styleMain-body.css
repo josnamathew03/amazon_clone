@@ -218,9 +218,9 @@
 
 .price-flex .price-i {
     align-self: center;
-    margin-top: -9.5px;
+    margin-top: -9.3px;
     margin-left: 0;
-    font-size: 13px;
+    font-size: 13px;         
     margin-bottom: 0;
 }
 
@@ -228,14 +228,14 @@
     font-size: 28px;
     font-family: 'regular';
 }
-
+                   
 .details p {
     color: #565959;
     font-size: 14px !important;
     line-height: 20px !important;
     align-self: flex-end;
 }
-
+                             
 .price-flex p {
     margin-left: 3.5px;
     margin-bottom: 2.5px;
@@ -252,7 +252,7 @@
 .price-flex span {
     align-self: flex-end;
     margin-left: 9.5px;
-    margin-bottom: 4.3px;
+    margin-bottom: 4px;
     white-space: normal;
     word-break: break-word;
     display: inline-block;
@@ -315,18 +315,18 @@
 }
 
 .add button {
-    margin-top: 4px;
+    margin-top: 4px; 
     /* width: 100%;*/
     height: 31.4px; 
     font-size: 13px;
-    padding: 0px 13px 1px 12.5px;
+    padding: 0px 13px .5px 12.5px;
     border-radius: 36px;
     /* padding: 0 12px 0 12px; */
     background-color: rgb(255, 216, 20);
-    border: none;
+    border: none;                   
     line-height: 30px;
     cursor: pointer;
-    /* font-family: 'button'; */
+    /* font-family: 'button'; */                                                                                                                              
 }
 
 .more-buy {
