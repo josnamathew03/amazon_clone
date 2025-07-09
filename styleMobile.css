@@ -1142,7 +1142,7 @@
     .copy {
         color: #ccc;
         text-align: center;
-        font-size: 11px;
+        font-size: 11px;    
         line-height: 12px;
         /* transform: translateY(.5px); */
     }
